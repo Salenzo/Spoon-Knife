@@ -1,0 +1,43 @@
+name: 逝逝
+
+on:
+  schedule:
+    - cron: "14 14 * * 1,4"
+  workflow_dispatch:
+    inputs:
+      name:
+        description: '运行这个'
+        default: ''
+        required: false
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 诶哈哈哈
+        uses: actions/checkout@v2
+        with:
+          ref: change-the-title
+
+      - name: Ruby来喽
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          #bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: 快趁热吃吧
+        env:
+          URL: ${{ secrets.URL }}
+          my_command: ${{ github.event.inputs.name }}
+        run: |
+          if [ -n "$my_command" ]
+          then
+            $my_command
+          else
+            ruby lib/hello.rb
+          fi
+          git add -A
+          if git -c user.email=@ -c user.name="GitHub Actions" commit --allow-empty-message -m ""
+          then
+            git push origin change-the-title
+          fi
