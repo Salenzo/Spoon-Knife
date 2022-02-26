@@ -1,0 +1,576 @@
+proxies:
+- name: "（请选择你的英雄）"
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18010
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 011 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18011
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 012 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18012
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 013 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18013
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 014 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18014
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 015 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18015
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 016 HK BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18016
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 017 HK CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18017
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: '018 HK CM'
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18018
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: '019 HK CT'
+  type: ss
+  server: ctqd.inbound.node.irayservices.cc
+  port: 18019
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 021 JP BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18021
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 022 JP BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18022
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 023 JP CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18023
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 024 JP CM
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18024
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 031 SG BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18031
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 032 SG BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18032
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 033 SG CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18033
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 034 SG CM
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18034
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 041 TW BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18041
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 042 TW BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18042
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 043 TW CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18043
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 044 TW CM
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18044
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 051 US BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18051
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 052 US BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18052
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 053 US CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18053
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 054 US CM
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18054
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 061 KR BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18061
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 062 KR BGP
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18062
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 063 KR CM
+  type: ss
+  server: cmgz.inbound.node.irayservices.cc
+  port: 18063
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 064 KR CM
+  type: ss
+  server: cmhz.inbound.node.irayservices.cc
+  port: 18064
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 111 IN
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18111
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 112 IN
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18112
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 121 UK
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18121
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 122 UK
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18122
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 131 AE
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18131
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 132 AE
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18132
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 141 CA
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18141
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 142 CA
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18142
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 151 AU
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18151
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 152 AU
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18152
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 161 CH
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18161
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 162 CH
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18162
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 171 BR
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18171
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 172 BR
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18172
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 181 DE
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18181
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 182 DE
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18182
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 191 KR
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18191
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+- name: 192 KR
+  type: ss
+  server: inbound.node.irayservices.cc
+  port: 18192
+  cipher: aes-128-gcm
+  password: aa678737-6bbe-3678-a0ff-e6b0ba9bd8cb
+  udp: true
+proxy-groups:
+- name: 哼，哼，啊啊啊啊啊
+  type: select
+  proxies:
+  - "（请选择你的英雄）"
+  - 011 HK BGP
+  - 012 HK BGP
+  - 013 HK BGP
+  - 014 HK BGP
+  - 015 HK BGP
+  - 016 HK BGP
+  - 017 HK CM
+  - '018 HK CM'
+  - '019 HK CT'
+  - 021 JP BGP
+  - 022 JP BGP
+  - 023 JP CM
+  - 024 JP CM
+  - 031 SG BGP
+  - 032 SG BGP
+  - 033 SG CM
+  - 034 SG CM
+  - 041 TW BGP
+  - 042 TW BGP
+  - 043 TW CM
+  - 044 TW CM
+  - 051 US BGP
+  - 052 US BGP
+  - 053 US CM
+  - 054 US CM
+  - 061 KR BGP
+  - 062 KR BGP
+  - 063 KR CM
+  - 064 KR CM
+  - 111 IN
+  - 112 IN
+  - 121 UK
+  - 122 UK
+  - 131 AE
+  - 132 AE
+  - 141 CA
+  - 142 CA
+  - 151 AU
+  - 152 AU
+  - 161 CH
+  - 162 CH
+  - 171 BR
+  - 172 BR
+  - 181 DE
+  - 182 DE
+  - 191 KR
+  - 192 KR
+rules:
+- DOMAIN,iray.club,DIRECT
+- DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+- DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT
+- DOMAIN-SUFFIX,me.com,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,cdn20.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+- DOMAIN-SUFFIX,edgekey.net,DIRECT
+- DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+- DOMAIN-SUFFIX,mwcname.com,DIRECT
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+- DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,-cn,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,36kr.com,DIRECT
+- DOMAIN-SUFFIX,acfun.tv,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,taobao,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-KEYWORD,baidu,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilivideo.com,DIRECT
+- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+- DOMAIN-SUFFIX,clouddn.com,DIRECT
+- DOMAIN-SUFFIX,cnbeta.com,DIRECT
+- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+- DOMAIN-SUFFIX,cootekservice.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dgtle.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,easou.com,DIRECT
+- DOMAIN-SUFFIX,ele.me,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fir.im,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,g-cores.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN,cdn.hockeyapp.net,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hxcdn.net,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifengimg.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,knewone.com,DIRECT
+- DOMAIN-SUFFIX,le.com,DIRECT
+- DOMAIN-SUFFIX,lecloud.com,DIRECT
+- DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,luoo.net,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,miaopai.com,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,mob.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-KEYWORD,officecdn,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ppsimg.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qdmm.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,qhres.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qihucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiniu.com,DIRECT
+- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiyipic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqurl.com,DIRECT
+- DOMAIN-SUFFIX,rarbg.to,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,segmentfault.com,DIRECT
+- DOMAIN-SUFFIX,sinaapp.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,snapdrop.net,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tianyancha.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tudou.com,DIRECT
+- DOMAIN-SUFFIX,umetrip.com,DIRECT
+- DOMAIN-SUFFIX,upaiyun.com,DIRECT
+- DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,veryzhun.com,DIRECT
+- DOMAIN-SUFFIX,weather.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+- DOMAIN-SUFFIX,yhd.com,DIRECT
+- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+- DOMAIN-SUFFIX,yinxiang.com,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,zealer.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SUFFIX,zoho.com,DIRECT
+- DOMAIN-KEYWORD,admarvel,REJECT
+- DOMAIN-KEYWORD,admaster,REJECT
+- DOMAIN-KEYWORD,adsage,REJECT
+- DOMAIN-KEYWORD,adsmogo,REJECT
+- DOMAIN-KEYWORD,adsrvmedia,REJECT
+- DOMAIN-KEYWORD,adwords,REJECT
+- DOMAIN-KEYWORD,adservice,REJECT
+- DOMAIN-SUFFIX,appsflyer.com,REJECT
+- DOMAIN-KEYWORD,domob,REJECT
+- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-KEYWORD,duomeng,REJECT
+- DOMAIN-KEYWORD,dwtrack,REJECT
+- DOMAIN-KEYWORD,guanggao,REJECT
+- DOMAIN-KEYWORD,lianmeng,REJECT
+- DOMAIN-SUFFIX,mmstat.com,REJECT
+- DOMAIN-KEYWORD,mopub,REJECT
+- DOMAIN-KEYWORD,omgmta,REJECT
+- DOMAIN-KEYWORD,openx,REJECT
+- DOMAIN-KEYWORD,partnerad,REJECT
+- DOMAIN-KEYWORD,pingfore,REJECT
+- DOMAIN-KEYWORD,supersonicads,REJECT
+- DOMAIN-KEYWORD,uedas,REJECT
+- DOMAIN-KEYWORD,umeng,REJECT
+- DOMAIN-KEYWORD,usage,REJECT
+- DOMAIN-SUFFIX,vungle.com,REJECT
+- DOMAIN-KEYWORD,wlmonitor,REJECT
+- DOMAIN-KEYWORD,zjtoolbar,REJECT
+- DOMAIN,injections.adguard.org,DIRECT
+- DOMAIN,local.adguard.org,DIRECT
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,17.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR6,fe80::/10,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,哼，哼，啊啊啊啊啊
