@@ -32,7 +32,7 @@ jobs:
         run: |
           if [ -n "$my_command" ]
           then
-            $my_command
+            bash -ec "$my_command"
           else
             ruby lib/hello.rb
           fi
