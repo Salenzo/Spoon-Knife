@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>A workflow to delete all workflow runs</title>
+<output id="y"></output>
+<script>
+var a, r = new XMLHttpRequest();
+function next() {
+	if (a.length) {
+		y.textContent += "."
+		a.pop().send();
+	} else {
+		y.textContent = "Done."
+	}
+}
+r.onreadystatechange = function () {
+	if (r.readyState == 4) {
+		y.textContent = "Parsing runs..."
+		a = JSON.parse(r.responseText).workflow_runs.map(function (x) {
+			var r = new XMLHttpRequest();
+			r.onreadystatechange = function () {
+				r.readyState == 4 && next();
+			};
+			r.open("DELETE", "https://api.github.com/repos/Salenzo/Spoon-Knife/actions/runs/" + x.id, true);
+			r.setRequestHeader("Accept","application/vnd.github+json");
+			r.setRequestHeader("Authorization","token " + location.hash.slice(1));
+			return r;
+		});
+		y.textContent = "Deleting..."
+		next();
+	}
+};
+r.open("GET", "https://api.github.com/repos/Salenzo/Spoon-Knife/actions/runs", true);
+r.setRequestHeader("Accept","application/vnd.github+json");
+r.setRequestHeader("Authorization","token " + location.hash.slice(1));
+r.send();
+y.textContent = "Reading runs..."
+</script>
