@@ -32,8 +32,10 @@ jobs:
         run: |
           if [ -n "$my_command" ]
           then
+            echo + command
             bash -ec "$my_command"
           else
+            echo + ruby
             ruby lib/hello.rb
           fi
           git add -A
