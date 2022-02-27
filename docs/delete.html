@@ -16,7 +16,7 @@ r.onreadystatechange = function () {
 		y.textContent = "Parsing runs..."
 		a = JSON.parse(r.responseText).workflow_runs.filter(function (x) {
 			return x.status == "completed";
-		).map(function (x) {
+		}).map(function (x) {
 			var r = new XMLHttpRequest();
 			r.onreadystatechange = function () {
 				r.readyState == 4 && next();
