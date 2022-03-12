@@ -1,0 +1,3 @@
+proxies: [{name: （订阅已过期）, type: ss, server: t.co, port: 1919, cipher: aes-128-gcm, password: 00000000-0000-0000-0000-000000000000, udp: true}]
+proxy-groups: [{name: 哼，哼，啊啊啊啊啊, type: select, proxies: [（订阅已过期）]}]
+rules: ["MATCH,DIRECT"]
