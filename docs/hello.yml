@@ -223,48 +223,6 @@ proxies:
   cipher: aes-128-gcm
   password: 683e4471-4cda-46e2-8770-46f3f4728734
   udp: true
-- name: 121 UK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18121
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 122 UK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18122
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 131 AE
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18131
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 132 AE
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18132
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 141 CA
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18141
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 142 CA
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18142
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
 - name: 151 AU
   type: ss
   server: inbound.node.irayservices.cc
@@ -276,48 +234,6 @@ proxies:
   type: ss
   server: inbound.node.irayservices.cc
   port: 18152
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 161 CH
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18161
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 162 CH
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18162
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 171 BR
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18171
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 172 BR
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18172
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 181 DE
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18181
-  cipher: aes-128-gcm
-  password: 683e4471-4cda-46e2-8770-46f3f4728734
-  udp: true
-- name: 182 DE
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18182
   cipher: aes-128-gcm
   password: 683e4471-4cda-46e2-8770-46f3f4728734
   udp: true
@@ -371,20 +287,8 @@ proxy-groups:
   - 064 KR CM
   - 111 IN
   - 112 IN
-  - 121 UK
-  - 122 UK
-  - 131 AE
-  - 132 AE
-  - 141 CA
-  - 142 CA
   - 151 AU
   - 152 AU
-  - 161 CH
-  - 162 CH
-  - 171 BR
-  - 172 BR
-  - 181 DE
-  - 182 DE
   - 191 KR
   - 192 KR
 rules:
