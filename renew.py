@@ -31,5 +31,4 @@ login = session.post("https://iray.club/api/v1/passport/auth/login", data={
 })
 if login.status_code != 200:
     exit(login.status_code)
-link = change_link()
-
+os.environ['url'] = change_link()
