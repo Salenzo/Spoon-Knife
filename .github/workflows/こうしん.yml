@@ -25,4 +25,4 @@ jobs:
       env:
           user: ${{ secrets.USER }}
       run: |
-          python3 -u renew.py >> ${{ secrets.USER }}
+          python3 -u renew.py
