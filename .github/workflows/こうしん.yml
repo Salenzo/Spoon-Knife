@@ -2,8 +2,7 @@ name: こうしん
 
 on:
   schedule:
-    - cron: "0 0 0 1/4 *"
-  workflow_dispatch:
+    - cron: "0 0 */3 * *"
 
 jobs:
   build:
