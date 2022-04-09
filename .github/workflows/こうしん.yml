@@ -2,7 +2,7 @@ name: こうしん
 
 on:
   schedule:
-    - cron: "0 4 */4 * *"
+    - cron: "0 4 4 * *"
   workflow_dispatch:
 
 jobs:
