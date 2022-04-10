@@ -2,7 +2,7 @@ name: こうしん
 
 on:
   schedule:
-    - cron: "0 4 4 * *"
+    - cron: "0 4 4 * *" # 首先 这个地方写的是每月4日四点 每月指挥运行一次搜达
   workflow_dispatch:
 
 jobs:
@@ -25,11 +25,7 @@ jobs:
       if: always()
       env:
           user: ${{ secrets.USER }}
+          token: ${{ secrets.TOKEN }}
       run: |
-          if python3 -u renew.py then
-            echo "link updated successfully"
-          fi
-          curl -X PUT \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/Salenzo/Spoon-Knife/actions/secrets/URL \
-          -d '{"encrypted_value":"encrypted_value"}'
+          python3 -u renew.py
+
