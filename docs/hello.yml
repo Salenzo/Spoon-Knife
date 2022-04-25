@@ -62,10 +62,10 @@ proxies:
   cipher: aes-128-gcm
   password: 854ba0c8-f09c-4698-9497-f5be956a3a50
   udp: true
-- name: '019 HK CT'
+- name: '019 深港IPLC专线 5X'
   type: ss
   server: ctqd.inbound.node.irayservices.cc
-  port: 18019
+  port: 11200
   cipher: aes-128-gcm
   password: 854ba0c8-f09c-4698-9497-f5be956a3a50
   udp: true
@@ -278,7 +278,7 @@ proxy-groups:
   - 016 HK BGP
   - 017 HK CM
   - '018 HK CM'
-  - '019 HK CT'
+  - '019 深港IPLC专线 5X'
   - 021 JP BGP
   - 022 JP BGP
   - 023 JP CM
