@@ -2,7 +2,7 @@ name: こうしん
 
 on:
   schedule:
-    - cron: "0 4 */4 * *" # 首先 这个地方写的是每月4日四点 每月指挥运行一次搜达
+    - cron: "0 4 4-29/10 * *"
   workflow_dispatch:
 
 jobs:
