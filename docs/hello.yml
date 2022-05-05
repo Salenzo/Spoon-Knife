@@ -1,4 +1,25 @@
 proxies:
+- name: 多IP验证-52.88.164.81
+  type: ss
+  server: 52.88.164.81
+  port: 15002
+  cipher: aes-128-gcm
+  password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
+  udp: true
+- name: 多IP验证-44.241.241.58
+  type: ss
+  server: 44.241.241.58
+  port: 15000
+  cipher: aes-128-gcm
+  password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
+  udp: true
+- name: 多IP验证-54.200.30.227
+  type: ss
+  server: 54.200.30.227
+  port: 15001
+  cipher: aes-128-gcm
+  password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
+  udp: true
 - name: "（请选择你的英雄）"
   type: ss
   server: inbound.node.irayservices.cc
@@ -269,6 +290,9 @@ proxy-groups:
 - name: 哼，哼，啊啊啊啊啊
   type: select
   proxies:
+  - 多IP验证-52.88.164.81
+  - 多IP验证-44.241.241.58
+  - 多IP验证-54.200.30.227
   - "（请选择你的英雄）"
   - 011 HK BGP
   - 012 HK BGP
