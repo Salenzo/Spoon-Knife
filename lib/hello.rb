@@ -3,7 +3,7 @@ require 'cgi'
 require 'open-uri'
 require 'yaml'
 
-group = "哼，哼，啊啊啊啊啊"
+group = "哼哼"
 hh = {
   "proxies" => [],
   "proxy-groups" => [{
@@ -18,7 +18,7 @@ Base64.decode64(URI(ENV["URL"]).read).each_line do |x|
     match = Regexp.last_match
     name = CGI.unescape(match.post_match)
     if name =~ /^「/
-      name = "（请选" "择你的英雄）"
+      name = "（请选" "择你的干员）"
     else
       name.gsub!(/\A[A-I]/) { ($&.ord - 65).to_s }
       {
@@ -36,7 +36,8 @@ Base64.decode64(URI(ENV["URL"]).read).each_line do |x|
         "瑞士" => "CH",
         "巴西" => "BR",
         "德国" => "DE",
-        "伦敦" => "", "迪拜" => "", "悉尼" => "", "春川" => "",
+        "俄罗斯" => "RU",
+        "莫斯科" => "", "伦敦" => "", "迪拜" => "", "悉尼" => "", "春川" => "",
         "多伦多" => "", "圣保罗" => "",
         "海得拉巴" => "", "法兰克福" => "",
         /\s\p{Han}{2,3}移动/ => " CM",
