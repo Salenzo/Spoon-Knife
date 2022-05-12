@@ -1,5 +1,5 @@
 proxies:
-- name: "（请选择你的英雄）"
+- name: "（请选择你的干员）"
   type: ss
   server: inbound.node.irayservices.cc
   port: 18010
@@ -230,14 +230,14 @@ proxies:
   cipher: aes-128-gcm
   password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
   udp: true
-- name: 181 俄罗斯 莫斯科
+- name: 181 RU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18181
   cipher: aes-128-gcm
   password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
   udp: true
-- name: 182 俄罗斯 莫斯科
+- name: 182 RU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18182
@@ -259,10 +259,10 @@ proxies:
   password: e290ed1e-f1df-43cc-bbf3-5eff57cd6e81
   udp: true
 proxy-groups:
-- name: 哼，哼，啊啊啊啊啊
+- name: 哼哼
   type: select
   proxies:
-  - "（请选择你的英雄）"
+  - "（请选择你的干员）"
   - 011 HK BGP
   - 012 HK BGP
   - 013 HK BGP
@@ -295,8 +295,8 @@ proxy-groups:
   - 112 IN
   - 151 AU
   - 152 AU
-  - 181 俄罗斯 莫斯科
-  - 182 俄罗斯 莫斯科
+  - 181 RU
+  - 182 RU
   - 191 KR
   - 192 KR
 rules:
@@ -485,4 +485,4 @@ rules:
 - IP-CIDR,224.0.0.0/4,DIRECT
 - IP-CIDR6,fe80::/10,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,哼，哼，啊啊啊啊啊
+- MATCH,哼哼
