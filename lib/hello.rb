@@ -45,6 +45,7 @@ Base64.decode64(URI(ENV["URL"]).read).each_line do |x|
         /\s\p{Han}{2,3}电信/ => " CT",
       }.each { |from, to| name.gsub!(from, to) }
       name.strip!
+      next if name.include?(/\b[2-9]x\b/i)
     end
     cipher, password = Base64.decode64(match[2]).split(":")
     hh["proxies"] << {
