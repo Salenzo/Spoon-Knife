@@ -62,3 +62,6 @@ Base64.decode64(URI(ENV["URL"]).read).each_line do |x|
 end
 hh["rules"] << "MATCH,#{group}"
 File.write("docs/hello.yml", YAML.dump(hh, header: false).sub(/\A-{3}\n/, ""))
+
+# https://github.com/crossutility/Quantumult/blob/master/extra-subscription-feature.md
+system "(date --iso-8601 ; curl -sLD - '#{ENV["URL"]}' -H 'User-Agent: ClashforWindows/0.19.5' -o /dev/null | grep -i subscription-userinfo) >> stats.dat"
