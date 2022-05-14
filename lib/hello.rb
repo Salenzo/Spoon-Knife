@@ -20,7 +20,7 @@ Base64.decode64(URI(ENV["URL"]).read).each_line do |x|
     if name =~ /^「/
       name = "（请选" "择你的干员）"
     else
-      next if name.include?(/\b[2-9][Xx×]\b|\d\d[Xx×]\b|IP/)
+      next if name =~ /\b[2-9][Xx×]\b|\d\d[Xx×]\b|IP/
       name.gsub!(/\A[A-I]/) { ($&.ord - 65).to_s }
       {
         "香港" => "HK",
