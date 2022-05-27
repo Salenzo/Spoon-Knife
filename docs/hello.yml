@@ -4,293 +4,301 @@ proxies:
   server: inbound.node.irayservices.cc
   port: 18010
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 011 HK BGP
+- name: 011 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18011
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 012 HK BGP
+- name: 012 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18012
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 013 HK BGP
+- name: 013 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18013
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 014 HK BGP
+- name: 014 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18014
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 015 HK BGP
+- name: 015 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18015
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 016 HK BGP
+- name: 016 HK
   type: ss
   server: inbound.node.irayservices.cc
   port: 18016
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 017 HK CM
+- name: 017 HK
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: inbound.node.irayservices.cc
   port: 18017
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: '018 HK CM'
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18018
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 021 JP BGP
+- name: '019 HK CU'
+  type: ss
+  server: cu.inbound.node.irayservices.cc
+  port: 18019
+  cipher: aes-128-gcm
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
+  udp: true
+- name: 021 JP
   type: ss
   server: inbound.node.irayservices.cc
   port: 18021
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 022 JP BGP
+- name: 022 JP
   type: ss
   server: inbound.node.irayservices.cc
   port: 18022
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 023 JP CM
+- name: 023 JP
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18023
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 024 JP CM
+- name: 024 JP
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cu.inbound.node.irayservices.cc
   port: 18024
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 031 SG BGP
+- name: 031 SG
   type: ss
   server: inbound.node.irayservices.cc
   port: 18031
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 032 SG BGP
+- name: 032 SG
   type: ss
   server: inbound.node.irayservices.cc
   port: 18032
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 033 SG CM
+- name: 033 SG
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18033
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 034 SG CM
+- name: 034 SG
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cu.inbound.node.irayservices.cc
   port: 18034
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 041 TW BGP
+- name: 041 TW 台北
   type: ss
   server: inbound.node.irayservices.cc
   port: 18041
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 042 TW BGP
+- name: 042 TW 台北
   type: ss
   server: inbound.node.irayservices.cc
   port: 18042
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 043 TW CM
+- name: 043 TW 台北
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18043
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 044 TW CM
+- name: 044 TW 台北
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cu.inbound.node.irayservices.cc
   port: 18044
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 051 US BGP
+- name: 051 US 圣何塞
   type: ss
   server: inbound.node.irayservices.cc
   port: 18051
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 052 US BGP
+- name: 052 US 圣何塞
   type: ss
   server: inbound.node.irayservices.cc
   port: 18052
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 053 US CM
+- name: 053 US 圣何塞
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18053
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 054 US CM
+- name: 054 US 圣何塞
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cu.inbound.node.irayservices.cc
   port: 18054
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 061 KR BGP
+- name: 061 KR 首尔
   type: ss
   server: inbound.node.irayservices.cc
   port: 18061
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 062 KR BGP
+- name: 062 KR 首尔
   type: ss
   server: inbound.node.irayservices.cc
   port: 18062
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 063 KR CM
+- name: 063 KR 首尔
   type: ss
-  server: cmgz.inbound.node.irayservices.cc
+  server: cm.inbound.node.irayservices.cc
   port: 18063
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 064 KR CM
+- name: 064 KR 首尔
   type: ss
-  server: cmhz.inbound.node.irayservices.cc
+  server: cu.inbound.node.irayservices.cc
   port: 18064
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 111 IN
   type: ss
   server: inbound.node.irayservices.cc
   port: 18111
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 112 IN
   type: ss
   server: inbound.node.irayservices.cc
   port: 18112
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 151 AU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18151
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 152 AU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18152
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 181 RU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18181
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 182 RU
   type: ss
   server: inbound.node.irayservices.cc
   port: 18182
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 191 KR
   type: ss
   server: inbound.node.irayservices.cc
   port: 18191
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 - name: 192 KR
   type: ss
   server: inbound.node.irayservices.cc
   port: 18192
   cipher: aes-128-gcm
-  password: b6abb0a5-d66d-4a16-ba09-eaec1d6776a8
+  password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
 proxy-groups:
 - name: 哼哼
   type: select
   proxies:
   - "（请选择你的干员）"
-  - 011 HK BGP
-  - 012 HK BGP
-  - 013 HK BGP
-  - 014 HK BGP
-  - 015 HK BGP
-  - 016 HK BGP
-  - 017 HK CM
+  - 011 HK
+  - 012 HK
+  - 013 HK
+  - 014 HK
+  - 015 HK
+  - 016 HK
+  - 017 HK
   - '018 HK CM'
-  - 021 JP BGP
-  - 022 JP BGP
-  - 023 JP CM
-  - 024 JP CM
-  - 031 SG BGP
-  - 032 SG BGP
-  - 033 SG CM
-  - 034 SG CM
-  - 041 TW BGP
-  - 042 TW BGP
-  - 043 TW CM
-  - 044 TW CM
-  - 051 US BGP
-  - 052 US BGP
-  - 053 US CM
-  - 054 US CM
-  - 061 KR BGP
-  - 062 KR BGP
-  - 063 KR CM
-  - 064 KR CM
+  - '019 HK CU'
+  - 021 JP
+  - 022 JP
+  - 023 JP
+  - 024 JP
+  - 031 SG
+  - 032 SG
+  - 033 SG
+  - 034 SG
+  - 041 TW 台北
+  - 042 TW 台北
+  - 043 TW 台北
+  - 044 TW 台北
+  - 051 US 圣何塞
+  - 052 US 圣何塞
+  - 053 US 圣何塞
+  - 054 US 圣何塞
+  - 061 KR 首尔
+  - 062 KR 首尔
+  - 063 KR 首尔
+  - 064 KR 首尔
   - 111 IN
   - 112 IN
   - 151 AU
