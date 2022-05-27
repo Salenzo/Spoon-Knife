@@ -125,84 +125,84 @@ proxies:
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 041 TW 台北
+- name: 041 TW
   type: ss
   server: inbound.node.irayservices.cc
   port: 18041
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 042 TW 台北
+- name: 042 TW
   type: ss
   server: inbound.node.irayservices.cc
   port: 18042
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 043 TW 台北
+- name: 043 TW
   type: ss
   server: cm.inbound.node.irayservices.cc
   port: 18043
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 044 TW 台北
+- name: 044 TW
   type: ss
   server: cu.inbound.node.irayservices.cc
   port: 18044
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 051 US 圣何塞
+- name: 051 US CA
   type: ss
   server: inbound.node.irayservices.cc
   port: 18051
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 052 US 圣何塞
+- name: 052 US CA
   type: ss
   server: inbound.node.irayservices.cc
   port: 18052
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 053 US 圣何塞
+- name: 053 US CA
   type: ss
   server: cm.inbound.node.irayservices.cc
   port: 18053
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 054 US 圣何塞
+- name: 054 US CA
   type: ss
   server: cu.inbound.node.irayservices.cc
   port: 18054
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 061 KR 首尔
+- name: 061 KR
   type: ss
   server: inbound.node.irayservices.cc
   port: 18061
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 062 KR 首尔
+- name: 062 KR
   type: ss
   server: inbound.node.irayservices.cc
   port: 18062
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 063 KR 首尔
+- name: 063 KR
   type: ss
   server: cm.inbound.node.irayservices.cc
   port: 18063
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: 064 KR 首尔
+- name: 064 KR
   type: ss
   server: cu.inbound.node.irayservices.cc
   port: 18064
@@ -287,18 +287,18 @@ proxy-groups:
   - 032 SG
   - 033 SG
   - 034 SG
-  - 041 TW 台北
-  - 042 TW 台北
-  - 043 TW 台北
-  - 044 TW 台北
-  - 051 US 圣何塞
-  - 052 US 圣何塞
-  - 053 US 圣何塞
-  - 054 US 圣何塞
-  - 061 KR 首尔
-  - 062 KR 首尔
-  - 063 KR 首尔
-  - 064 KR 首尔
+  - 041 TW
+  - 042 TW
+  - 043 TW
+  - 044 TW
+  - 051 US CA
+  - 052 US CA
+  - 053 US CA
+  - 054 US CA
+  - 061 KR
+  - 062 KR
+  - 063 KR
+  - 064 KR
   - 111 IN
   - 112 IN
   - 151 AU
