@@ -62,13 +62,6 @@ proxies:
   cipher: aes-128-gcm
   password: e542d264-27aa-41dc-a965-cfdf1b568f16
   udp: true
-- name: '019 HK CU'
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18019
-  cipher: aes-128-gcm
-  password: e542d264-27aa-41dc-a965-cfdf1b568f16
-  udp: true
 - name: 021 JP
   type: ss
   server: inbound.node.irayservices.cc
@@ -278,7 +271,6 @@ proxy-groups:
   - 016 HK
   - 017 HK
   - '018 HK CM'
-  - '019 HK CU'
   - 021 JP
   - 022 JP
   - 023 JP

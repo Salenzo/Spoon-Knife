@@ -18,3 +18,5 @@ subscription-userinfo: upload=440932; download=1798108; total=68719476736; expir
 subscription-userinfo: upload=1355276; download=27849753; total=68719476736; expire=1656290517
 2022-05-30
 subscription-userinfo: upload=529916157; download=52152322759; total=68719476736; expire=1656290517
+2022-05-31
+subscription-userinfo: upload=623617546; download=61479389916; total=68719476736; expire=1656290517
