@@ -1,11 +1,4 @@
 proxies:
-- name: 020 HK ZL协议测试
-  type: ss
-  server: 154.3.32.73
-  port: 15000
-  cipher: aes-128-gcm
-  password: b6609e2c-54ca-4f4b-b3c4-c3ac6b02700c
-  udp: true
 - name: "（请选择你的干员）"
   type: ss
   server: inbound.node.irayservices.cc
@@ -269,7 +262,6 @@ proxy-groups:
 - name: 哼哼
   type: select
   proxies:
-  - 020 HK ZL协议测试
   - "（请选择你的干员）"
   - 011 HK
   - 012 HK
