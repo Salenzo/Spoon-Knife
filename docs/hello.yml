@@ -202,20 +202,6 @@ proxies:
   cipher: aes-128-gcm
   password: b6609e2c-54ca-4f4b-b3c4-c3ac6b02700c
   udp: true
-- name: 111 IN
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18111
-  cipher: aes-128-gcm
-  password: b6609e2c-54ca-4f4b-b3c4-c3ac6b02700c
-  udp: true
-- name: 112 IN
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18112
-  cipher: aes-128-gcm
-  password: b6609e2c-54ca-4f4b-b3c4-c3ac6b02700c
-  udp: true
 - name: 151 AU
   type: ss
   server: inbound.node.irayservices.cc
@@ -291,8 +277,6 @@ proxy-groups:
   - 062 KR
   - 063 KR
   - 064 KR
-  - 111 IN
-  - 112 IN
   - 151 AU
   - 152 AU
   - 181 RU
