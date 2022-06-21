@@ -1,4 +1,60 @@
 proxies:
+- name: 7K直连01
+  type: ss
+  server: 20.247.4.152
+  port: 17001
+  cipher: aes-128-gcm
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: 7K直连02
+  type: ss
+  server: 20.247.5.152
+  port: 17001
+  cipher: aes-128-gcm
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: 7K直连03
+  type: ss
+  server: 20.247.5.155
+  port: 17003
+  cipher: aes-128-gcm
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: 7K直连04
+  type: ss
+  server: 20.247.5.221
+  port: 17004
+  cipher: aes-128-gcm
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: JP直连01
+  type: ss
+  server: 20.222.235.15
+  port: 17001
+  cipher: aes-128-gcm
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: JP直连02
+  type: ss
+  server: 20.222.250.59
+  port: 17001
+  cipher: chacha20-ietf-poly1305
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: SG直连01
+  type: ss
+  server: 54.254.165.1
+  port: 17001
+  cipher: chacha20-ietf-poly1305
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
+- name: SG直连02
+  type: ss
+  server: 18.142.228.3
+  port: 17001
+  cipher: chacha20-ietf-poly1305
+  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
+  udp: true
 - name: "（请选择你的干员）"
   type: ss
   server: inbound.node.irayservices.cc
@@ -20,48 +76,6 @@ proxies:
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
-- name: 013 HK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18013
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 014 HK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18014
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 015 HK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18015
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 016 HK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18016
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 017 HK
-  type: ss
-  server: inbound.node.irayservices.cc
-  port: 18017
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: '018 HK CM'
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18018
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
 - name: 021 JP
   type: ss
   server: inbound.node.irayservices.cc
@@ -73,20 +87,6 @@ proxies:
   type: ss
   server: inbound.node.irayservices.cc
   port: 18022
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 023 JP
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18023
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 024 JP
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18024
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
@@ -104,20 +104,6 @@ proxies:
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
-- name: 033 SG
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18033
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 034 SG
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18034
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
 - name: 041 TW
   type: ss
   server: inbound.node.irayservices.cc
@@ -129,20 +115,6 @@ proxies:
   type: ss
   server: inbound.node.irayservices.cc
   port: 18042
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 043 TW
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18043
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 044 TW
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18044
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
@@ -160,20 +132,6 @@ proxies:
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
-- name: 053 US CA
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18053
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 054 US CA
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18054
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
 - name: 061 KR
   type: ss
   server: inbound.node.irayservices.cc
@@ -185,20 +143,6 @@ proxies:
   type: ss
   server: inbound.node.irayservices.cc
   port: 18062
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 063 KR
-  type: ss
-  server: cm.inbound.node.irayservices.cc
-  port: 18063
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: 064 KR
-  type: ss
-  server: cu.inbound.node.irayservices.cc
-  port: 18064
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
@@ -248,35 +192,27 @@ proxy-groups:
 - name: 哼哼
   type: select
   proxies:
+  - 7K直连01
+  - 7K直连02
+  - 7K直连03
+  - 7K直连04
+  - JP直连01
+  - JP直连02
+  - SG直连01
+  - SG直连02
   - "（请选择你的干员）"
   - 011 HK
   - 012 HK
-  - 013 HK
-  - 014 HK
-  - 015 HK
-  - 016 HK
-  - 017 HK
-  - '018 HK CM'
   - 021 JP
   - 022 JP
-  - 023 JP
-  - 024 JP
   - 031 SG
   - 032 SG
-  - 033 SG
-  - 034 SG
   - 041 TW
   - 042 TW
-  - 043 TW
-  - 044 TW
   - 051 US CA
   - 052 US CA
-  - 053 US CA
-  - 054 US CA
   - 061 KR
   - 062 KR
-  - 063 KR
-  - 064 KR
   - 151 AU
   - 152 AU
   - 181 RU
