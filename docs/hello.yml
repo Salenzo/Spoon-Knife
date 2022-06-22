@@ -1,11 +1,4 @@
 proxies:
-- name: 7K直连01
-  type: ss
-  server: 20.24.87.133
-  port: 17001
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
 - name: 7K直连02
   type: ss
   server: 20.239.154.74
@@ -150,7 +143,6 @@ proxy-groups:
 - name: 哼哼
   type: select
   proxies:
-  - 7K直连01
   - 7K直连02
   - 7K直连03
   - 7K直连04
