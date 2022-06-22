@@ -1,42 +1,35 @@
 proxies:
 - name: 7K直连01
   type: ss
-  server: 20.239.178.48
+  server: 20.24.87.133
   port: 17001
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
 - name: 7K直连02
   type: ss
-  server: 20.239.183.223
+  server: 20.239.154.74
   port: 17001
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
 - name: 7K直连03
   type: ss
-  server: 20.247.106.94
+  server: 20.239.71.31
   port: 17003
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
 - name: 7K直连04
   type: ss
-  server: 20.239.183.26
+  server: 20.239.156.218
   port: 17004
-  cipher: aes-128-gcm
-  password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
-  udp: true
-- name: JP直连01
-  type: ss
-  server: 20.46.177.93
-  port: 17001
   cipher: aes-128-gcm
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
   udp: true
 - name: JP直连02
   type: ss
-  server: 20.46.176.144
+  server: 20.188.9.219
   port: 17001
   cipher: chacha20-ietf-poly1305
   password: 20bd9acc-d296-4548-84ad-dfb7c299f29f
@@ -161,7 +154,6 @@ proxy-groups:
   - 7K直连02
   - 7K直连03
   - 7K直连04
-  - JP直连01
   - JP直连02
   - SG直连01
   - SG直连02
