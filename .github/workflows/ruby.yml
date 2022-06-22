@@ -2,7 +2,8 @@ name: 逝逝
 
 on:
   schedule:
-    - cron: "14 14 * * 1,4"
+    #- cron: "14 14 * * 1,4"
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       name:
