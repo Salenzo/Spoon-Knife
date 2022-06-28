@@ -78,7 +78,7 @@ proxies:
   udp: true
 - name: 024 JP
   type: ss
-  server: cu.inbound.node.irayservices.cc
+  server: 61.176.215.104
   port: 18024
   cipher: aes-128-gcm
   password: 285b8b64-d502-46e6-b01b-27aa26172316
