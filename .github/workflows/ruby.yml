@@ -36,8 +36,8 @@ jobs:
             echo + command
             bash -ec "$my_command"
           else
-            echo + ruby
-            ruby lib/hello.rb
+            echo + python
+            python lib/hello.py
           fi
           git add -A
           if git -c user.email=@ -c user.name="GitHub Actions" commit --allow-empty-message -m ""
