@@ -8,7 +8,7 @@ group = "想不想试试漂浮在空中的感觉？"
 response = requests.get(
     os.environ["URL"],
     headers={
-        "User-Agent": "ClashforWindows/0.19.22",
+        "User-Agent": "ClashforWindows/0.19.25",
     },
 )
 hh = yaml.safe_load(response.content)
@@ -29,7 +29,7 @@ for proxy in hh["proxies"]:
     if name[0] == "「":
         name = "（请选" + "择你的干员）"
     else:
-        if re.match(r"\b[2-9][Xx×]\b|\d\d[Xx×]\b|IP|\u9999港 湖\u5357\u8054通$", name):
+        if re.match(r"\b[2-9][Xx×]\b|\d\d[Xx×]\b|IP|\u9999港 湖\u5357\u8054通$|套餐到期|剩余流量|距离下次重置", name):
             continue
         if re.match(r"^[A-I][^A-Z]", name):
             name = str(ord(name[0]) - 65) + name[1:]
@@ -62,13 +62,6 @@ for proxy in hh["proxies"]:
             (r"\s[\u4e00-\u9fff]{2,3}移动", " CM"),
             (r"\s[\u4e00-\u9fff]{2,3}联通", " CU"),
             (r"\s[\u4e00-\u9fff]{2,3}电信", " CT"),
-            ("套餐到期", ""),
-            ("剩余流量", ""),
-            ("2023-06-03", ""),
-            ("：[0-9]{1,2}", ""),
-            ("：[0-9]{1,3}.[0-9]{1,2}", ""),
-            ("天", ""),
-            ("距离下次重置剩余", ""),
         ]:
             name = re.sub(from_pattern, to_string, name)
         name = name.strip()
