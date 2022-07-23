@@ -62,6 +62,11 @@ for proxy in hh["proxies"]:
             (r"\s[\u4e00-\u9fff]{2,3}移动", " CM"),
             (r"\s[\u4e00-\u9fff]{2,3}联通", " CU"),
             (r"\s[\u4e00-\u9fff]{2,3}电信", " CT"),
+            ("套餐到期：", ""),
+            ("剩余流量：", ""),
+            ("2023-06-03", ""),
+            ("[0-9]{1-3}", ""),
+            ("天", ""),
         ]:
             name = re.sub(from_pattern, to_string, name)
         name = name.strip()
