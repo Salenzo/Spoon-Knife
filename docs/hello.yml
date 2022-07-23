@@ -14,7 +14,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: ''
+  name: VAV
   password: 5271003c-d807-4854-a4ee-658e61828f3b
   port: 18010
   server: inbound.node.irayservices.cc
@@ -257,7 +257,7 @@ proxy-groups:
   proxies:
   - 3.89 GB
   - ''
-  - ''
+  - VAV
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - 011 HK
   - 012 HK
