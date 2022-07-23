@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 3.89 GB
+  name: 3.88 GB
   password: 5271003c-d807-4854-a4ee-658e61828f3b
   port: 18010
   server: inbound.node.irayservices.cc
@@ -14,7 +14,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: VAV
+  name: "\uFF1A"
   password: 5271003c-d807-4854-a4ee-658e61828f3b
   port: 18010
   server: inbound.node.irayservices.cc
@@ -255,9 +255,9 @@ proxy-groups:
 - name: "\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\u4E2D\u7684\u611F\u89C9\
     \uFF1F"
   proxies:
-  - 3.89 GB
+  - 3.88 GB
   - ''
-  - VAV
+  - "\uFF1A"
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - 011 HK
   - 012 HK
