@@ -65,7 +65,7 @@ for proxy in hh["proxies"]:
             ("套餐到期：", ""),
             ("剩余流量：", ""),
             ("2023-06-03", ""),
-            ("[0-9]{1-3}", ""),
+            (r"[0-9]{1,3}", ""),
             ("天", ""),
         ]:
             name = re.sub(from_pattern, to_string, name)
