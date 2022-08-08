@@ -1,0 +1,23 @@
+name: ＡＢＣＤ
+on:
+  workflow_dispatch:
+jobs:
+  wow:
+    runs-on: windows-latest
+    steps:
+      - name: CO
+        uses: actions/checkout@v2
+        with:
+          ref: change-the-title
+
+      - name: CO₂
+        run: |
+          SKIAVERSION="$(curl https://api.github.com/repos/aseprite/skia/releases/latest | jq -r .tag_name)" \
+            VERSION="$(curl https://api.github.com/repos/aseprite/aseprite/releases/latest | jq -r .tag_name)" \
+            cmd.exe /c tab.bat
+          mv d.7z docs
+          git add docs/d.7z
+          if git -c user.email=alice@example.com -c user.name=Alice commit --allow-empty-message -m ""
+          then
+            git push origin change-the-title
+          fi
