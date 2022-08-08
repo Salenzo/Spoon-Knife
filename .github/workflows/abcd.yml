@@ -27,6 +27,11 @@ jobs:
           curl -OL "https://github.com/aseprite/skia/releases/download/$SKIAVERSION/Skia-Windows-Release-x86.zip"
           ls -l; unzip Skia-Windows-Release-x86.zip
           cd ../b
+
+          while rm `which c++`; do; true; done
+          while rm `which gcc`; do; true; done
+          while rm `which g++`; do; true; done
+
           cmd.exe /c tab.bat
           cd ..
           mv d.7z docs
