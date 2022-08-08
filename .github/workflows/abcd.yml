@@ -16,11 +16,11 @@ jobs:
           export SKIAVERSION="$(curl https://api.github.com/repos/aseprite/skia/releases/latest | jq -r .tag_name)"
           export VERSION="$(curl https://api.github.com/repos/aseprite/aseprite/releases/latest | jq -r .tag_name)"
           echo $SKIAVERSION, $VERSION; mkdir a c; cd a
-          curl -vO "https://github.com/aseprite/aseprite/releases/download/$VERSION/Aseprite-$VERSION-Source.zip"
-          unzip Aseprite-$VERSION-Source.zip
+          curl -O "https://github.com/aseprite/aseprite/releases/download/$VERSION/Aseprite-$VERSION-Source.zip"
+          ls; unzip Aseprite-$VERSION-Source.zip
           cd ../c
-          curl -vO "https://github.com/aseprite/skia/releases/download/$SKIAVERSION/Skia-Windows-Release-x86.zip"
-          unzip Skia-Windows-Release-x86.zip
+          curl -O "https://github.com/aseprite/skia/releases/download/$SKIAVERSION/Skia-Windows-Release-x86.zip"
+          ls; unzip Skia-Windows-Release-x86.zip
           cd ../b
           cmd.exe /c tab.bat
           cd ..
