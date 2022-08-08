@@ -13,9 +13,17 @@ jobs:
       - name: CO₂
         shell: bash
         run: |
-          SKIAVERSION="$(curl https://api.github.com/repos/aseprite/skia/releases/latest | jq -r .tag_name)" \
-            VERSION="$(curl https://api.github.com/repos/aseprite/aseprite/releases/latest | jq -r .tag_name)" \
-            cmd.exe /c tab.bat
+          export SKIAVERSION="$(curl https://api.github.com/repos/aseprite/skia/releases/latest | jq -r .tag_name)"
+          export VERSION="$(curl https://api.github.com/repos/aseprite/aseprite/releases/latest | jq -r .tag_name)"
+          echo $SKIAVERSION, $VERSION; mkdir a c; cd a
+          wget "https://github.com/aseprite/aseprite/releases/download/$VERSION/Aseprite-$VERSION-Source.zip"
+          unzip Aseprite-$VERSION-Source.zip
+          cd ../c
+          wget "https://github.com/aseprite/skia/releases/download/$SKIAVERSION/Skia-Windows-Release-x86.zip"
+          unzip Skia-Windows-Release-x86.zip
+          cd ../b
+          cmd.exe /c tab.bat
+          cd ..
           mv d.7z docs
           git add docs/d.7z
           if git -c user.email=alice@example.com -c user.name=Alice commit --allow-empty-message -m ""
