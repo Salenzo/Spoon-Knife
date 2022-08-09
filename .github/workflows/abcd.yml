@@ -37,7 +37,7 @@ jobs:
           for i in $(curl https://api.github.com/repos/J-11/Aseprite-Simplified-Chinese/releases/latest | jq -r .assets[].browser_download_url)
           do
             echo Bundling extension: $i
-            curl -Lo e.zip $i
+            curl -L $i -o e.zip
             unzip -o e.zip -d "aseprite-$VERSION-dev/data/extensions"
           done
           cat <<'EOF' > "aseprite-$VERSION-dev/aseprite.ini"
