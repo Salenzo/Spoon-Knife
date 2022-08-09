@@ -41,11 +41,22 @@ jobs:
             ninja aseprite
           EOF
           cmd.exe /c b.bat
-          7z a -psalenzo ../d.7z bin/*.exe bin/data
+          mkdir "aseprite-$VERSION-dev"
+          mv bin/aseprite.exe bin/data "aseprite-$VERSION-dev"
+          for i in $(curl https://api.github.com/repos/J-11/Aseprite-Simplified-Chinese/releases/latest | jq -r .assets[].browser_download_url)
+          do
+            curl -Lo e.zip $i
+            unzip e.zip -od "aseprite-$VERSION-dev/data/extensions"
+          done
+          cat <<'EOF' > "aseprite-$VERSION-dev/aseprite.ini"
+            [general]
+            language = sChinese
+            [theme]
+            selected = aseprite-theme-pixel
+          EOF
+          7z a -psalenzo ../d.7z "aseprite-$VERSION-dev"
           cd ..
           mv d.7z docs
           git add docs/d.7z
-          if git -c user.email=alice@example.com -c user.name=Alice commit --allow-empty-message -m ""
-          then
-            git push
-          fi
+          git -c user.email=alice@example.com -c user.name=Alice commit --allow-empty-message -m ""
+          git push
