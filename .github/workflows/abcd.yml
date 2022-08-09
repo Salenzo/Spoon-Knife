@@ -33,6 +33,19 @@ jobs:
               :
             done
           done
+          mkdir -p "aseprite-$VERSION-dev/data/extensions"
+          for i in $(curl https://api.github.com/repos/J-11/Aseprite-Simplified-Chinese/releases/latest | jq -r .assets[].browser_download_url)
+          do
+            echo Bundling extension: $i
+            curl -Lo e.zip $i
+            unzip -o e.zip -d "aseprite-$VERSION-dev/data/extensions"
+          done
+          cat <<'EOF' > "aseprite-$VERSION-dev/aseprite.ini"
+            [general]
+            language = sChinese
+            [theme]
+            selected = aseprite-theme-pixel
+          EOF
           cat <<'EOF' > b.bat
             for /f "usebackq delims=" %%i in (`vswhere.exe -latest -property installationPath`) do call "%%i\VC\Auxiliary\Build\vcvars32.bat"
             cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLAF_BACKEND=skia ^
@@ -41,19 +54,7 @@ jobs:
             ninja aseprite
           EOF
           cmd.exe /c b.bat
-          mkdir "aseprite-$VERSION-dev"
           mv bin/aseprite.exe bin/data "aseprite-$VERSION-dev"
-          for i in $(curl https://api.github.com/repos/J-11/Aseprite-Simplified-Chinese/releases/latest | jq -r .assets[].browser_download_url)
-          do
-            curl -Lo e.zip $i
-            unzip e.zip -od "aseprite-$VERSION-dev/data/extensions"
-          done
-          cat <<'EOF' > "aseprite-$VERSION-dev/aseprite.ini"
-            [general]
-            language = sChinese
-            [theme]
-            selected = aseprite-theme-pixel
-          EOF
           7z a -psalenzo ../d.7z "aseprite-$VERSION-dev"
           cd ..
           mv d.7z docs
