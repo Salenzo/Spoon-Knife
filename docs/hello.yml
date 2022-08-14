@@ -1,252 +1,252 @@
 proxies:
 - cipher: aes-128-gcm
   name: "\u5269\u4F59\u6D41\u91CF\uFF1A486.19 GB"
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "\u8DDD\u79BB\u4E0B\u6B21\u91CD\u7F6E\u5269\u4F59\uFF1A20 \u5929"
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "\u5957\u9910\u5230\u671F\uFF1A2023-06-03"
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 011 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18011
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 012 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18012
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 013 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18013
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 014 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18014
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 015 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18015
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 016 HK
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18016
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 021 JP
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18021
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 022 JP
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18022
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 023 JP
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18023
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 024 JP
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18024
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 031 SG
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18031
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 032 SG
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18032
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 033 SG
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18033
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 034 SG
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18034
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 041 TW
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18041
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 042 TW
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18042
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 043 TW
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18043
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 044 TW
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18044
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 051 US CA
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18051
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 052 US CA
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18052
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 053 US CA
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18053
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 054 US CA
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18054
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 061 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18061
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 062 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18062
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 063 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18063
   server: cm.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 064 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18064
   server: cu.inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 111 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18111
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 112 KR
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18112
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 121 AU
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18121
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 122 AU
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18122
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 131 RU
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18131
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 132 RU
-  password: 49e16891-544e-4026-a1d4-a29cc3259a65
+  password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18132
   server: inbound.node.irayservices.cc
   type: ss
