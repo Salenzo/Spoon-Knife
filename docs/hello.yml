@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A437.78 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A437.54 GB"
   password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: "\u8DDD\u79BB\u4E0B\u6B21\u91CD\u7F6E\u5269\u4F59\uFF1A16 \u5929"
+  name: "\u8DDD\u79BB\u4E0B\u6B21\u91CD\u7F6E\u5269\u4F59\uFF1A15 \u5929"
   password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 18010
   server: inbound.node.irayservices.cc
