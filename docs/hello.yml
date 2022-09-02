@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A599.98 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A599.36 GB"
   password: 3cf41b8f-c04a-4b6d-807b-0efd63f31af4
   port: 15000
   server: 20.205.12.216
