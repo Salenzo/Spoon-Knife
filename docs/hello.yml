@@ -1,13 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A586.9 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A586.03 GB"
   password: f3f7981d-552d-41dd-ac25-9f6516032a08
   port: 15000
   server: 20.205.12.216
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\u8DDD\u79BB\u4E0B\u6B21\u91CD\u7F6E\u5269\u4F59\uFF1A27 \u5929"
+  name: "\u8DDD\u79BB\u4E0B\u6B21\u91CD\u7F6E\u5269\u4F59\uFF1A26 \u5929"
   password: f3f7981d-552d-41dd-ac25-9f6516032a08
   port: 15000
   server: 20.205.12.216
