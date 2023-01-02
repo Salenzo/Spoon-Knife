@@ -8512,3 +8512,5 @@ subscription-userinfo: upload=5730065113; download=352908899139; total=644245094
 subscription-userinfo: upload=5736134813; download=353409080468; total=644245094400; expire=1685736064
 2023-01-02T15:09:24.189415
 subscription-userinfo: upload=5744054391; download=355783037195; total=644245094400; expire=1685736064
+2023-01-02T16:12:08.931100
+subscription-userinfo: upload=31647; download=70744; total=644245094400; expire=1685736064
