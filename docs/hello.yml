@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A569.48 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A569.47 GB"
   password: 2b61cd03-93e2-4a00-97bc-f389fd795649
   port: 15000
   server: hkland1.node.irayservices.cc
@@ -38,7 +38,7 @@ proxies:
   name: 011 HK
   password: 2b61cd03-93e2-4a00-97bc-f389fd795649
   port: 18011
-  server: ct.inbound.node.irayservices.cc
+  server: inbound.node.irayservices.cc
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -52,7 +52,7 @@ proxies:
   name: 013 HK
   password: 2b61cd03-93e2-4a00-97bc-f389fd795649
   port: 18013
-  server: inbound.node.irayservices.cc
+  server: 211.140.157.178
   type: ss
   udp: true
 - cipher: aes-128-gcm
