@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A459.5 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A459.49 GB"
   password: 2b61cd03-93e2-4a00-97bc-f389fd795649
   port: 14000
   server: zlsg1.node.irayservices.cc
