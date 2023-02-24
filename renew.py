@@ -6,12 +6,12 @@ import json
 
 
 def get_link() -> str:
-    subscribe = session.get("https://iray.club/api/v1/user/getSubscribe")
+    subscribe = session.get("https://irayhub.com/api/v1/user/getSubscribe")
     return subscribe.json()["data"]["subscribe_url"]
 
 
 def change_link() -> str:
-    reset = session.get("https://iray.club/api/v1/user/resetSecurity")
+    reset = session.get("https://irayhub.com/api/v1/user/resetSecurity")
     return reset.json()["data"]
 
 
@@ -25,7 +25,7 @@ def encrypt(public_key: str, secret_value: str) -> str:
 
 user = os.environ['user'].split(';')
 session = requests.session()
-login = session.post("https://iray.club/api/v1/passport/auth/login", data={
+login = session.post("https://irayhub.com/api/v1/passport/auth/login", data={
     "email": user[0],
     "password": user[1]
 })
