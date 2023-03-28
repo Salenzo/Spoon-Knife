@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A410.2 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A410.02 GB"
   password: 2a1ef400-6dce-4448-bad6-06b2ef6f83f6
   port: 18010
   server: inbound.node.irayservices.cc
@@ -438,6 +438,8 @@ rules:
 - DOMAIN-SUFFIX,miwifi.com,DIRECT
 - DOMAIN-SUFFIX,mob.com,DIRECT
 - DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,onedrive.com,DIRECT
+- DOMAIN-SUFFIX,onenote.com,DIRECT
 - DOMAIN-SUFFIX,office.com,DIRECT
 - DOMAIN-SUFFIX,office365.com,DIRECT
 - DOMAIN-KEYWORD,officecdn,DIRECT
@@ -874,10 +876,6 @@ rules:
 - "DOMAIN-SUFFIX,nytimes.com,\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\
   \u4E2D\u7684\u611F\u89C9\uFF1F"
 - "DOMAIN-SUFFIX,omnigroup.com,\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\
-  \u4E2D\u7684\u611F\u89C9\uFF1F"
-- "DOMAIN-SUFFIX,onedrive.com,\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\
-  \u4E2D\u7684\u611F\u89C9\uFF1F"
-- "DOMAIN-SUFFIX,onenote.com,\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\
   \u4E2D\u7684\u611F\u89C9\uFF1F"
 - "DOMAIN-SUFFIX,ooyala.com,\u60F3\u4E0D\u60F3\u8BD5\u8BD5\u6F02\u6D6E\u5728\u7A7A\
   \u4E2D\u7684\u611F\u89C9\uFF1F"
