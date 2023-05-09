@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A548.64 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A547.52 GB"
   password: 134f31ca-49e3-40d1-8488-f7cfeb26789e
   port: 18010
   server: inbound.node.irayservices.cc
