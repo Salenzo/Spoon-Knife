@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: "\u5269\u4F59\u6D41\u91CF\uFF1A401.07 GB"
+  name: "\u5269\u4F59\u6D41\u91CF\uFF1A401.06 GB"
   password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
   port: 18010
   server: inbound.node.irayservices.cc
@@ -140,34 +140,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 041 TW
-  password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
-  port: 18041
-  server: inbound.node.irayservices.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 042 TW
-  password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
-  port: 18042
-  server: inbound.node.irayservices.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 043 TW
-  password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
-  port: 18043
-  server: cm.inbound.node.irayservices.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 044 TW
-  password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
-  port: 18044
-  server: cu.inbound.node.irayservices.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
   name: 051 US CA
   password: 7aa9e6d5-25d6-4bb0-ad10-cd761b9313e5
   port: 18051
@@ -300,10 +272,6 @@ proxy-groups:
   - 032 SG
   - 033 SG
   - 034 SG
-  - 041 TW
-  - 042 TW
-  - 043 TW
-  - 044 TW
   - 051 US CA
   - 052 US CA
   - 053 US CA
