@@ -57,6 +57,7 @@ if login.status_code != 200:
     exit(login.status_code)
 
 """os.environ['url'] = change_link()"""  # 这个只会影响当前进程，py退出后就没了
+"""
 url = change_link()
 
 # gg xn
@@ -68,6 +69,7 @@ print(requests.put("https://api.github.com/repos/Salenzo/Spoon-Knife/actions/sec
     "key_id": public_key["key_id"],
     "encrypted_value": encrypt(public_key["key"], url)
 })).content, "xiu gai mi mi")
+"""
 print(requests.post("https://api.github.com/repos/Salenzo/Spoon-Knife/actions/workflows/ruby.yml/dispatches", headers={
     "Authorization": f"token {token}",
     "Accept": "application/vnd.github.v3+json",
