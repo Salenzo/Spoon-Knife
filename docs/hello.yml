@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 【★ 建议选用Rule模式而非Global模式】
+  name: 【★ 1145141919810】
   password: '114514'
   port: 1919
   server: 8.8.8.8
