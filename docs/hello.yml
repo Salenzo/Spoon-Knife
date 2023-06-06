@@ -14,6 +14,13 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "HK ChatGPT\u6D4B\u8BD5"
+  password: 1b5befb8-4e9d-4463-a621-29b115e9685a
+  port: 14000
+  server: 84.17.37.41
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 011 HK
   password: 1b5befb8-4e9d-4463-a621-29b115e9685a
@@ -275,6 +282,7 @@ proxy-groups:
   - 132 RU
   - 141 TR
   - 142 TR
+  - "HK ChatGPT\u6D4B\u8BD5"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
