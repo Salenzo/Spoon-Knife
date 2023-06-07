@@ -245,6 +245,20 @@ proxies:
   server: inbound.node.irayservices.cc
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: "151 \u6CF0\u56FD"
+  password: 1b5befb8-4e9d-4463-a621-29b115e9685a
+  port: 18151
+  server: inbound.node.irayservices.cc
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "152 \u6CF0\u56FD"
+  password: 1b5befb8-4e9d-4463-a621-29b115e9685a
+  port: 18152
+  server: inbound.node.irayservices.cc
+  type: ss
+  udp: true
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -282,6 +296,8 @@ proxy-groups:
   - 132 RU
   - 141 TR
   - 142 TR
+  - "151 \u6CF0\u56FD"
+  - "152 \u6CF0\u56FD"
   - "HK ChatGPT\u6D4B\u8BD5"
   type: select
 rules:
