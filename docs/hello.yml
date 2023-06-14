@@ -60,12 +60,6 @@ proxies:
   server: kr.mjt001.com
   type: trojan
   udp: true
-- name: "\u671D\u9C9CKP (Trojan) (TEST)"
-  password: 86f594f5-818b-4653-bc0c-fff0ec998c03
-  port: 443
-  server: kp.mjt001.com
-  type: trojan
-  udp: true
 - name: IL (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
@@ -99,7 +93,7 @@ proxies:
   sni: uk.mjt001.com
   type: trojan
   udp: true
-- name: "\u6CE2PL (Trojan)"
+- name: PL (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: pl.mjt001.com
@@ -415,6 +409,7 @@ proxy-groups:
   - LUX (Trojan)
   - MY (Trojan)
   - NG 1
+  - PL (Trojan)
   - PT (Trojan)
   - RU (Trojan)
   - SA (Trojan)
@@ -436,8 +431,6 @@ proxy-groups:
   - US LA 2 (OpenAI)
   - US LA 3 (OpenAI)
   - VN (Trojan)
-  - "\u671D\u9C9CKP (Trojan) (TEST)"
-  - "\u6CE2PL (Trojan)"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
