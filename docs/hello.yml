@@ -14,147 +14,147 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
-- name: JPJP-T
+- name: JP (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: jp.mjt001.com
   sni: jp.mjt001.com
   type: trojan
   udp: true
-- name: SGSG-T
+- name: SG (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: sg.mjt001.com
   sni: sg.mjt001.com
   type: trojan
   udp: true
-- name: "\u9A6C\u6765\u897F\u4E9AMY-T"
+- name: MY (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: my.mjt001.com
   sni: my.mjt001.com
   type: trojan
   udp: true
-- name: "\u67EC\u57D4\u5BE8KH-T"
+- name: KH (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: kh.mjt001.com
   type: trojan
   udp: true
-- name: "\u8D8A\u5357VN-T"
+- name: VN (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: vn.mjt001.com
   type: trojan
   udp: true
-- name: TWHINET-T
+- name: HINET (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: hinet.mjt001.com
   sni: hinet.mjt001.com
   type: trojan
   udp: true
-- name: KRKR-T
+- name: KR (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: kr.mjt001.com
   type: trojan
   udp: true
-- name: "\u671D\u9C9CKP-T (TEST)"
+- name: "\u671D\u9C9CKP (Trojan) (TEST)"
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: kp.mjt001.com
   type: trojan
   udp: true
-- name: "\u4EE5\u8272\u5217IL-T"
+- name: IL (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: il.mjt001.com
   sni: il.mjt001.com
   type: trojan
   udp: true
-- name: "\u54C8\u8428\u514B\u65AF\u5766KZ-T"
+- name: KZ (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: kz.mjt001.com
   type: trojan
   udp: true
-- name: USUSLA-T  (ChatGPT)
+- name: US LA (Trojan) (OpenAI)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: usla.mjt001.com
   type: trojan
   udp: true
-- name: DEDE-T
+- name: DE (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: de.mjt001.com
   sni: de.mjt001.com
   type: trojan
   udp: true
-- name: UKUK-T
+- name: UK (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: uk.mjt001.com
   sni: uk.mjt001.com
   type: trojan
   udp: true
-- name: "\u6CE2\u5170PL-T"
+- name: "\u6CE2PL (Trojan)"
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: pl.mjt001.com
   sni: pl.mjt001.com
   type: trojan
   udp: true
-- name: "\u8461\u8404\u7259PT-T"
+- name: PT (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: pt.mjt001.com
   sni: pt.mjt001.com
   type: trojan
   udp: true
-- name: "\u5362\u68EE\u5821LUX-T"
+- name: LUX (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: lux.mjt001.com
   type: trojan
   udp: true
-- name: RURU-T
+- name: RU (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: ru.mjt001.com
   sni: ru.mjt001.com
   type: trojan
   udp: true
-- name: "\u4E4C\u514B\u5170UA-T"
+- name: UA (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: ua.mjt001.com
   sni: ua.mjt001.com
   type: trojan
   udp: true
-- name: TRTR-T
+- name: TR (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: tr.mjt001.com
   sni: tr.mjt001.com
   type: trojan
   udp: true
-- name: "\u963F\u6839\u5EF7AR-T"
+- name: AR (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: ar.mjt001.com
   sni: ar.mjt001.com
   type: trojan
   udp: true
-- name: BRBR-T
+- name: BR (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: br.mjt001.com
   sni: br.mjt001.com
   type: trojan
   udp: true
-- name: "\u5357\u975ESA-T"
+- name: SA (Trojan)
   password: 86f594f5-818b-4653-bc0c-fff0ec998c03
   port: 443
   server: sa.mjt001.com
@@ -163,7 +163,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "JP-\u4F18\u5316"
+  name: JP 1
   network: ws
   port: 16617
   server: yes.iamagoodman.net
@@ -172,7 +172,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "JP-\u4F18\u53162"
+  name: JP 2
   network: ws
   port: 16617
   server: m.lwvzmdu.cn
@@ -181,7 +181,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "JP-\u4F18\u53163"
+  name: JP 3
   network: ws
   port: 16617
   server: t.cccao.cyou
@@ -190,7 +190,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "SG-\u4F18\u5316"
+  name: SG 1
   network: ws
   port: 16618
   server: yes.iamagoodman.net
@@ -199,7 +199,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "SG-\u4F18\u53162"
+  name: SG 2
   network: ws
   port: 16618
   server: m.lwvzmdu.cn
@@ -208,7 +208,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "SG-\u4F18\u53163"
+  name: SG 3
   network: ws
   port: 16618
   server: t.cccao.cyou
@@ -217,7 +217,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKFDC-\u4F18\u5316"
+  name: FDC 1
   network: ws
   port: 16622
   server: yes.iamagoodman.net
@@ -226,7 +226,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKFDC-\u4F18\u53162"
+  name: FDC 2
   network: ws
   port: 16622
   server: m.lwvzmdu.cn
@@ -235,7 +235,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKAz-\u4F18\u5316"
+  name: HK Azure 1
   network: ws
   port: 16627
   server: yes.iamagoodman.net
@@ -244,7 +244,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKAz-\u4F18\u53162"
+  name: HK Azure 2
   network: ws
   port: 16627
   server: m.lwvzmdu.cn
@@ -253,7 +253,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKAz-\u4F18\u53163"
+  name: HK Azure 3
   network: ws
   port: 16627
   server: t.cccao.cyou
@@ -262,7 +262,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKHKT-\u4F18\u5316"
+  name: HKT 1
   network: ws
   port: 16620
   server: yes.iamagoodman.net
@@ -271,7 +271,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKHKT-\u4F18\u53162"
+  name: HKT 2
   network: ws
   port: 16620
   server: m.lwvzmdu.cn
@@ -280,7 +280,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "HKHKT-\u4F18\u53163"
+  name: HKT 3
   network: ws
   port: 16620
   server: t.cccao.cyou
@@ -289,7 +289,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "IN-\u4F18\u5316"
+  name: IN 1
   network: ws
   port: 16626
   server: yes.iamagoodman.net
@@ -298,7 +298,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "TW-\u4F18\u5316"
+  name: TW 1
   network: ws
   port: 16616
   server: yes.iamagoodman.net
@@ -307,7 +307,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "TW-\u4F18\u53162"
+  name: TW 2
   network: ws
   port: 16616
   server: m.lwvzmdu.cn
@@ -316,7 +316,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "TW-\u4F18\u53163"
+  name: TW 3
   network: ws
   port: 16616
   server: t.cccao.cyou
@@ -325,7 +325,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "USLA-\u4F18\u5316 (ChatGPT)"
+  name: US LA 1 (OpenAI)
   network: ws
   port: 16648
   server: yes.iamagoodman.net
@@ -334,7 +334,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "USLA-\u4F18\u53162 (ChatGPT)"
+  name: US LA 2 (OpenAI)
   network: ws
   port: 16648
   server: m.lwvzmdu.cn
@@ -343,7 +343,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "USLA-\u4F18\u53163  (ChatGPT)"
+  name: US LA 3 (OpenAI)
   network: ws
   port: 16648
   server: t.cccao.cyou
@@ -352,7 +352,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "UK-\u4F18\u5316"
+  name: UK 1
   network: ws
   port: 16645
   server: yes.iamagoodman.net
@@ -361,7 +361,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "UK-\u4F18\u53162"
+  name: UK 2
   network: ws
   port: 16645
   server: m.lwvzmdu.cn
@@ -370,7 +370,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "UK-\u4F18\u53163"
+  name: UK 3
   network: ws
   port: 16645
   server: t.cccao.cyou
@@ -379,7 +379,7 @@ proxies:
   uuid: 86f594f5-818b-4653-bc0c-fff0ec998c03
 - alterId: 0
   cipher: auto
-  name: "\u5C3C\u65E5\u5229\u4E9A-\u4F18\u5316"
+  name: NG 1
   network: ws
   port: 16639
   server: yes.iamagoodman.net
@@ -391,53 +391,53 @@ proxy-groups:
     \u843D\uFF01"
   proxies:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
-  - BRBR-T
-  - DEDE-T
-  - "HKAz-\u4F18\u5316"
-  - "HKAz-\u4F18\u53162"
-  - "HKAz-\u4F18\u53163"
-  - "HKFDC-\u4F18\u5316"
-  - "HKFDC-\u4F18\u53162"
-  - "HKHKT-\u4F18\u5316"
-  - "HKHKT-\u4F18\u53162"
-  - "HKHKT-\u4F18\u53163"
-  - "IN-\u4F18\u5316"
-  - "JP-\u4F18\u5316"
-  - "JP-\u4F18\u53162"
-  - "JP-\u4F18\u53163"
-  - JPJP-T
-  - KRKR-T
-  - RURU-T
-  - "SG-\u4F18\u5316"
-  - "SG-\u4F18\u53162"
-  - "SG-\u4F18\u53163"
-  - SGSG-T
-  - TRTR-T
-  - "TW-\u4F18\u5316"
-  - "TW-\u4F18\u53162"
-  - "TW-\u4F18\u53163"
-  - TWHINET-T
-  - "UK-\u4F18\u5316"
-  - "UK-\u4F18\u53162"
-  - "UK-\u4F18\u53163"
-  - UKUK-T
-  - "USLA-\u4F18\u5316 (ChatGPT)"
-  - "USLA-\u4F18\u53162 (ChatGPT)"
-  - "USLA-\u4F18\u53163  (ChatGPT)"
-  - USUSLA-T  (ChatGPT)
-  - "\u4E4C\u514B\u5170UA-T"
-  - "\u4EE5\u8272\u5217IL-T"
-  - "\u5357\u975ESA-T"
-  - "\u5362\u68EE\u5821LUX-T"
-  - "\u54C8\u8428\u514B\u65AF\u5766KZ-T"
-  - "\u5C3C\u65E5\u5229\u4E9A-\u4F18\u5316"
-  - "\u671D\u9C9CKP-T (TEST)"
-  - "\u67EC\u57D4\u5BE8KH-T"
-  - "\u6CE2\u5170PL-T"
-  - "\u8461\u8404\u7259PT-T"
-  - "\u8D8A\u5357VN-T"
-  - "\u963F\u6839\u5EF7AR-T"
-  - "\u9A6C\u6765\u897F\u4E9AMY-T"
+  - AR (Trojan)
+  - BR (Trojan)
+  - DE (Trojan)
+  - FDC 1
+  - FDC 2
+  - HINET (Trojan)
+  - HK Azure 1
+  - HK Azure 2
+  - HK Azure 3
+  - HKT 1
+  - HKT 2
+  - HKT 3
+  - IL (Trojan)
+  - IN 1
+  - JP (Trojan)
+  - JP 1
+  - JP 2
+  - JP 3
+  - KH (Trojan)
+  - KR (Trojan)
+  - KZ (Trojan)
+  - LUX (Trojan)
+  - MY (Trojan)
+  - NG 1
+  - PT (Trojan)
+  - RU (Trojan)
+  - SA (Trojan)
+  - SG (Trojan)
+  - SG 1
+  - SG 2
+  - SG 3
+  - TR (Trojan)
+  - TW 1
+  - TW 2
+  - TW 3
+  - UA (Trojan)
+  - UK (Trojan)
+  - UK 1
+  - UK 2
+  - UK 3
+  - US LA (Trojan) (OpenAI)
+  - US LA 1 (OpenAI)
+  - US LA 2 (OpenAI)
+  - US LA 3 (OpenAI)
+  - VN (Trojan)
+  - "\u671D\u9C9CKP (Trojan) (TEST)"
+  - "\u6CE2PL (Trojan)"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
