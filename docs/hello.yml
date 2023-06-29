@@ -100,6 +100,13 @@ proxies:
   sni: pl.mjt001.com
   type: trojan
   udp: true
+- name: CH (Trojan)
+  password: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
+  port: 443
+  server: ch.mjt001.com
+  sni: ch.mjt001.com
+  type: trojan
+  udp: true
 - name: PT (Trojan)
   password: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
   port: 443
@@ -211,7 +218,7 @@ proxies:
   uuid: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
 - alterId: 0
   cipher: auto
-  name: FDC 1
+  name: WAP 1
   network: ws
   port: 16622
   server: yes.iamagoodman.net
@@ -220,7 +227,7 @@ proxies:
   uuid: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
 - alterId: 0
   cipher: auto
-  name: FDC 2
+  name: WAP 2
   network: ws
   port: 16622
   server: m.lwvzmdu.cn
@@ -419,9 +426,8 @@ proxy-groups:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - AR (Trojan)
   - BR (Trojan)
+  - CH (Trojan)
   - DE (Trojan)
-  - FDC 1
-  - FDC 2
   - HINET (Trojan)
   - HK Azure 1
   - HK Azure 2
@@ -463,6 +469,8 @@ proxy-groups:
   - US LA 2 (OpenAI)
   - US LA 3 (OpenAI)
   - VN (Trojan)
+  - WAP 1
+  - WAP 2
   - "\u6FB3\u5927 1"
   - "\u6FB3\u5927 2"
   type: select
