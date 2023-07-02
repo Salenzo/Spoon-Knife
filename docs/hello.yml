@@ -120,6 +120,12 @@ proxies:
   server: lux.mjt001.com
   type: trojan
   udp: true
+- name: "\u6FB3\u5927AU (Trojan)"
+  password: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
+  port: 443
+  server: au.mjt001.com
+  type: trojan
+  udp: true
 - name: RU (Trojan)
   password: abc2cd7d-c842-42b9-b3f9-b262ed045ebf
   port: 443
@@ -439,6 +445,7 @@ proxy-groups:
   - VN (Trojan)
   - WAP 1
   - WAP 2
+  - "\u6FB3\u5927AU (Trojan)"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
