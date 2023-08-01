@@ -73,6 +73,13 @@ proxies:
   server: usla.mjt001.com
   type: trojan
   udp: true
+- name: UK (Trojan)
+  password: e2df3a35-75ed-4320-8cc4-79f1811997b1
+  port: 443
+  server: uk.mjt001.com
+  sni: uk.mjt001.com
+  type: trojan
+  udp: true
 - name: PL (Trojan)
   password: e2df3a35-75ed-4320-8cc4-79f1811997b1
   port: 443
@@ -382,6 +389,7 @@ proxy-groups:
   - TW 2
   - TW 3
   - UA (Trojan)
+  - UK (Trojan)
   - UK 1
   - UK 2
   - UK 3
