@@ -155,6 +155,13 @@ proxies:
   sni: sa.mjt001.com
   type: trojan
   udp: true
+- name: NI (Trojan)
+  password: e2df3a35-75ed-4320-8cc4-79f1811997b1
+  port: 443
+  server: ni.mjt001.com
+  sni: ni.mjt001.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: JP 1
@@ -344,15 +351,6 @@ proxies:
   type: vmess
   udp: true
   uuid: e2df3a35-75ed-4320-8cc4-79f1811997b1
-- alterId: 0
-  cipher: auto
-  name: NG 1
-  network: ws
-  port: 16639
-  server: yes.iamagoodman.net
-  type: vmess
-  udp: true
-  uuid: e2df3a35-75ed-4320-8cc4-79f1811997b1
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -375,7 +373,7 @@ proxy-groups:
   - KZ (Trojan)
   - LUX (Trojan)
   - MY (Trojan)
-  - NG 1
+  - NI (Trojan)
   - PL (Trojan)
   - PT (Trojan)
   - RU (Trojan)
