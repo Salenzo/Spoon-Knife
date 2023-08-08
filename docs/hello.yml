@@ -236,6 +236,33 @@ proxies:
   uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
 - alterId: 0
   cipher: auto
+  name: HK Azure 1
+  network: ws
+  port: 16627
+  server: yes.iamagoodman.net
+  type: vmess
+  udp: true
+  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+- alterId: 0
+  cipher: auto
+  name: HK Azure 2
+  network: ws
+  port: 16627
+  server: m.lwvzmdu.cn
+  type: vmess
+  udp: true
+  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+- alterId: 0
+  cipher: auto
+  name: HK Azure 3
+  network: ws
+  port: 16627
+  server: t.cccao.cyou
+  type: vmess
+  udp: true
+  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+- alterId: 0
+  cipher: auto
   name: HKT 1
   network: ws
   port: 16620
@@ -360,6 +387,9 @@ proxy-groups:
   - BR (Trojan)
   - CH (Trojan)
   - HINET (Trojan)
+  - HK Azure 1
+  - HK Azure 2
+  - HK Azure 3
   - HKT 1
   - HKT 2
   - HKT 3
