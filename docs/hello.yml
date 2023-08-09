@@ -141,20 +141,6 @@ proxies:
   sni: ar.mjt001.com
   type: trojan
   udp: true
-- name: BR (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
-  port: 443
-  server: br.mjt001.com
-  sni: br.mjt001.com
-  type: trojan
-  udp: true
-- name: SA (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
-  port: 443
-  server: sa.mjt001.com
-  sni: sa.mjt001.com
-  type: trojan
-  udp: true
 - name: NI (Trojan)
   password: 726a582d-dc1a-45ec-953d-a3d5144e4481
   port: 443
@@ -384,7 +370,6 @@ proxy-groups:
   proxies:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - AR (Trojan)
-  - BR (Trojan)
   - CH (Trojan)
   - HINET (Trojan)
   - HK Azure 1
@@ -407,7 +392,6 @@ proxy-groups:
   - PL (Trojan)
   - PT (Trojan)
   - RU (Trojan)
-  - SA (Trojan)
   - SG (Trojan)
   - SG 1
   - SG 2
