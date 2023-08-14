@@ -15,134 +15,134 @@ proxies:
   type: ss
   udp: true
 - name: JP (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: jp.mjt001.com
   sni: jp.mjt001.com
   type: trojan
   udp: true
 - name: SG (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: sg.mjt001.com
   sni: sg.mjt001.com
   type: trojan
   udp: true
 - name: MY (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: my.mjt001.com
   sni: my.mjt001.com
   type: trojan
   udp: true
 - name: KH (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: kh.mjt001.com
   type: trojan
   udp: true
 - name: VN (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: vn.mjt001.com
   type: trojan
   udp: true
 - name: HINET (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: hinet.mjt001.com
   sni: hinet.mjt001.com
   type: trojan
   udp: true
 - name: IL (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: il.mjt001.com
   sni: il.mjt001.com
   type: trojan
   udp: true
 - name: KZ (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: kz.mjt001.com
   type: trojan
   udp: true
 - name: US LA (Trojan) (OpenAI)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: usla.mjt001.com
   type: trojan
   udp: true
 - name: UK (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: uk.mjt001.com
   sni: uk.mjt001.com
   type: trojan
   udp: true
 - name: PL (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: pl.mjt001.com
   sni: pl.mjt001.com
   type: trojan
   udp: true
 - name: CH (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: ch.mjt001.com
   sni: ch.mjt001.com
   type: trojan
   udp: true
 - name: PT (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: pt.mjt001.com
   sni: pt.mjt001.com
   type: trojan
   udp: true
 - name: LUX (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: lux.mjt001.com
   type: trojan
   udp: true
 - name: "\u6FB3\u5927AU (Trojan)"
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: au.mjt001.com
   type: trojan
   udp: true
 - name: RU (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: ru.mjt001.com
   sni: ru.mjt001.com
   type: trojan
   udp: true
 - name: UA (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: ua.mjt001.com
   sni: ua.mjt001.com
   type: trojan
   udp: true
 - name: TR (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: tr.mjt001.com
   sni: tr.mjt001.com
   type: trojan
   udp: true
 - name: AR (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: ar.mjt001.com
   sni: ar.mjt001.com
   type: trojan
   udp: true
 - name: NI (Trojan)
-  password: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  password: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
   port: 443
   server: ni.mjt001.com
   sni: ni.mjt001.com
@@ -156,7 +156,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: JP 2
@@ -165,7 +165,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: JP 3
@@ -174,7 +174,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: SG 1
@@ -183,7 +183,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: SG 2
@@ -192,7 +192,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: SG 3
@@ -201,7 +201,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: WAP 1
@@ -210,7 +210,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: WAP 2
@@ -219,7 +219,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HK Azure 1
@@ -228,7 +228,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HK Azure 2
@@ -237,7 +237,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HK Azure 3
@@ -246,7 +246,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HKT 1
@@ -255,7 +255,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HKT 2
@@ -264,7 +264,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: HKT 3
@@ -273,7 +273,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: IN 1
@@ -282,7 +282,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: TW 1
@@ -291,7 +291,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: TW 2
@@ -300,7 +300,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: TW 3
@@ -309,7 +309,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: US LA 1 (OpenAI)
@@ -318,7 +318,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: US LA 2 (OpenAI)
@@ -327,7 +327,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: US LA 3 (OpenAI)
@@ -336,7 +336,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: UK 1
@@ -345,7 +345,7 @@ proxies:
   server: yes.iamagoodman.net
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: UK 2
@@ -354,7 +354,7 @@ proxies:
   server: m.lwvzmdu.cn
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
   name: UK 3
@@ -363,7 +363,7 @@ proxies:
   server: t.cccao.cyou
   type: vmess
   udp: true
-  uuid: 726a582d-dc1a-45ec-953d-a3d5144e4481
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
