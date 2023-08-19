@@ -276,6 +276,15 @@ proxies:
   uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
 - alterId: 0
   cipher: auto
+  name: TW 3
+  network: ws
+  port: 16616
+  server: t.cccao.cyou
+  type: vmess
+  udp: true
+  uuid: 422625b1-3761-4a8f-a7f3-c7d9d74cb2b4
+- alterId: 0
+  cipher: auto
   name: US LA 1 (OpenAI)
   network: ws
   port: 16648
@@ -360,6 +369,7 @@ proxy-groups:
   - TR (Trojan)
   - TW 1
   - TW 2
+  - TW 3
   - UA (Trojan)
   - UK (Trojan)
   - UK 1
