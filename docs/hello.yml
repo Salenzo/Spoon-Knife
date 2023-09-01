@@ -54,6 +54,12 @@ proxies:
   sni: hinet.mjt001.com
   type: trojan
   udp: true
+- name: T2
+  password: d4638a95-3613-4b10-9b40-48d478b6266a
+  port: 6626
+  server: 152.70.244.180
+  type: trojan
+  udp: true
 - name: IL (Trojan)
   password: d4638a95-3613-4b10-9b40-48d478b6266a
   port: 443
@@ -366,6 +372,7 @@ proxy-groups:
   - SG 1
   - SG 2
   - SG 3
+  - T2
   - TR (Trojan)
   - TW 1
   - TW 2
