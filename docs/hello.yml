@@ -28,13 +28,6 @@ proxies:
   sni: sg.mjt001.com
   type: trojan
   udp: true
-- name: MY (Trojan)
-  password: d4638a95-3613-4b10-9b40-48d478b6266a
-  port: 443
-  server: my.mjt001.com
-  sni: my.mjt001.com
-  type: trojan
-  udp: true
 - name: KH (Trojan)
   password: d4638a95-3613-4b10-9b40-48d478b6266a
   port: 443
@@ -54,10 +47,10 @@ proxies:
   sni: hinet.mjt001.com
   type: trojan
   udp: true
-- name: T2
+- name: KR (Trojan)
   password: d4638a95-3613-4b10-9b40-48d478b6266a
-  port: 6626
-  server: 152.70.244.180
+  port: 443
+  server: kr.mjt001.com
   type: trojan
   udp: true
 - name: IL (Trojan)
@@ -361,9 +354,9 @@ proxy-groups:
   - JP 2
   - JP 3
   - KH (Trojan)
+  - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
-  - MY (Trojan)
   - NI (Trojan)
   - PL (Trojan)
   - PT (Trojan)
@@ -372,7 +365,6 @@ proxy-groups:
   - SG 1
   - SG 2
   - SG 3
-  - T2
   - TR (Trojan)
   - TW 1
   - TW 2
