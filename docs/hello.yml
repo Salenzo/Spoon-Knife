@@ -47,6 +47,13 @@ proxies:
   sni: hinet.mjt001.com
   type: trojan
   udp: true
+- name: wap (Trojan)
+  password: c0280070-6f96-4005-bea8-cfb80cf3d2be
+  port: 443
+  server: waphk.mjt001.com
+  sni: waphk.mjt001.com
+  type: trojan
+  udp: true
 - name: KR (Trojan)
   password: c0280070-6f96-4005-bea8-cfb80cf3d2be
   port: 443
@@ -381,6 +388,7 @@ proxy-groups:
   - VN (Trojan)
   - WAP 1
   - WAP 2
+  - wap (Trojan)
   - "\u6FB3\u5927AU (Trojan)"
   type: select
 rules:
