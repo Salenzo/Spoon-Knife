@@ -107,6 +107,12 @@ proxies:
   sni: pt.mjt001.com
   type: trojan
   udp: true
+- name: LUX (Trojan)
+  password: 2b127bec-9e15-4a04-9db7-a5ba00fb2284
+  port: 443
+  server: lux.mjt001.com
+  type: trojan
+  udp: true
 - name: "\u6FB3\u5927AU (Trojan)"
   password: 2b127bec-9e15-4a04-9db7-a5ba00fb2284
   port: 443
@@ -357,6 +363,7 @@ proxy-groups:
   - KH (Trojan)
   - KR (Trojan)
   - KZ (Trojan)
+  - LUX (Trojan)
   - NI (Trojan)
   - PL (Trojan)
   - PT (Trojan)
