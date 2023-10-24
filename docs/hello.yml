@@ -61,12 +61,6 @@ proxies:
   sni: waphk.mjt001.com
   type: trojan
   udp: true
-- name: KR (Trojan)
-  password: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
-  port: 443
-  server: kr.mjt001.com
-  type: trojan
-  udp: true
 - name: IL (Trojan)
   password: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
   port: 443
@@ -369,7 +363,6 @@ proxy-groups:
   - JP 2
   - JP 3
   - KH (Trojan)
-  - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
   - NI (Trojan)
