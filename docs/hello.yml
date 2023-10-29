@@ -28,13 +28,6 @@ proxies:
   sni: sg.mjt001.com
   type: trojan
   udp: true
-- name: HKT (Trojan)
-  password: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
-  port: 443
-  server: hkt.mjt001.com
-  sni: hkt.mjt001.com
-  type: trojan
-  udp: true
 - name: KH (Trojan)
   password: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
   port: 443
@@ -358,7 +351,6 @@ proxy-groups:
   - AR (Trojan)
   - CH (Trojan)
   - HINET (Trojan)
-  - HKT (Trojan)
   - HKT 1
   - HKT 2
   - HKT 3
