@@ -159,7 +159,7 @@ proxies:
   name: JP 1
   network: ws
   port: 16617
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -168,7 +168,7 @@ proxies:
   name: JP 2
   network: ws
   port: 16617
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -177,7 +177,7 @@ proxies:
   name: JP 3
   network: ws
   port: 16617
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -186,7 +186,7 @@ proxies:
   name: SG 1
   network: ws
   port: 16618
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -195,7 +195,7 @@ proxies:
   name: SG 2
   network: ws
   port: 16618
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -204,7 +204,7 @@ proxies:
   name: SG 3
   network: ws
   port: 16618
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -213,7 +213,7 @@ proxies:
   name: WAP 1
   network: ws
   port: 16622
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -222,7 +222,7 @@ proxies:
   name: WAP 2
   network: ws
   port: 16622
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -231,7 +231,7 @@ proxies:
   name: HKT 1
   network: ws
   port: 16620
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -240,7 +240,7 @@ proxies:
   name: HKT 2
   network: ws
   port: 16620
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -249,7 +249,7 @@ proxies:
   name: HKT 3
   network: ws
   port: 16620
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -258,7 +258,7 @@ proxies:
   name: IN 1
   network: ws
   port: 16626
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -267,7 +267,7 @@ proxies:
   name: TW 1
   network: ws
   port: 16616
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -276,7 +276,7 @@ proxies:
   name: TW 2
   network: ws
   port: 16616
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -285,7 +285,7 @@ proxies:
   name: TW 3
   network: ws
   port: 16616
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -294,7 +294,7 @@ proxies:
   name: US LA 1 (OpenAI)
   network: ws
   port: 16648
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -303,7 +303,7 @@ proxies:
   name: US LA 2 (OpenAI)
   network: ws
   port: 16648
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -312,7 +312,7 @@ proxies:
   name: US LA 3 (OpenAI)
   network: ws
   port: 16648
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -321,7 +321,7 @@ proxies:
   name: UK 1
   network: ws
   port: 16645
-  server: yes.iamagoodman.net
+  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -330,7 +330,7 @@ proxies:
   name: UK 2
   network: ws
   port: 16645
-  server: m.lwvzmdu.cn
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
@@ -339,7 +339,7 @@ proxies:
   name: UK 3
   network: ws
   port: 16645
-  server: t.cccao.cyou
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: f4b5946c-f9e6-4ee8-bd12-b3f7fbe5286a
