@@ -14,7 +14,7 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
-- name: JP (Trojan)
+- name: JP (Trojan) GPT
   password: e1ef6c1d-65d3-4d5b-a31f-9893923d4bba
   port: 443
   server: jp.mjt000.com
@@ -77,7 +77,7 @@ proxies:
   sni: kz.mjt000.com
   type: trojan
   udp: true
-- name: US LA (Trojan) (OpenAI)
+- name: US LA (Trojan) GPT
   password: e1ef6c1d-65d3-4d5b-a31f-9893923d4bba
   port: 443
   server: usla.mjt000.com
@@ -163,7 +163,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: JP 1
+  name: JP 1 GPT
   network: ws
   port: 16617
   server: yes.cnmjcn.net
@@ -172,7 +172,7 @@ proxies:
   uuid: e1ef6c1d-65d3-4d5b-a31f-9893923d4bba
 - alterId: 0
   cipher: auto
-  name: JP 2
+  name: JP 2 GPT
   network: ws
   port: 16617
   server: m.cnmjcn.com
@@ -181,7 +181,7 @@ proxies:
   uuid: e1ef6c1d-65d3-4d5b-a31f-9893923d4bba
 - alterId: 0
   cipher: auto
-  name: JP 3
+  name: JP 3 GPT
   network: ws
   port: 16617
   server: t.cnmjcn.cyou
@@ -363,10 +363,10 @@ proxy-groups:
   - HKT 3
   - IL (Trojan)
   - IN 1
-  - JP (Trojan)
-  - JP 1
-  - JP 2
-  - JP 3
+  - JP (Trojan) GPT
+  - JP 1 GPT
+  - JP 2 GPT
+  - JP 3 GPT
   - KH (Trojan)
   - KR (Trojan)
   - KZ (Trojan)
@@ -388,7 +388,7 @@ proxy-groups:
   - UK 1
   - UK 2
   - UK 3
-  - US LA (Trojan) (OpenAI)
+  - US LA (Trojan) GPT
   - US LA 1 (OpenAI)
   - US LA 2 (OpenAI)
   - US LA 3 (OpenAI)
