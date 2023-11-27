@@ -42,7 +42,7 @@ proxies:
   sni: vn.mjt000.com
   type: trojan
   udp: true
-- name: HINET (Trojan)
+- name: WAP (Trojan)
   password: 7c22db93-825c-4c13-88e5-0e6411a9df85
   port: 443
   server: hinet.mjt000.com
@@ -351,7 +351,6 @@ proxy-groups:
   - AR (Trojan)
   - AU (Trojan)
   - CH (Trojan)
-  - HINET (Trojan)
   - HKT 1
   - HKT 2
   - HKT 3
@@ -386,6 +385,7 @@ proxy-groups:
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
   - VN (Trojan)
+  - WAP (Trojan)
   - WAP 1
   - WAP 2
   - wap (Trojan)
