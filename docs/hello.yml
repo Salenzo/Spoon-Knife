@@ -15,147 +15,147 @@ proxies:
   type: ss
   udp: true
 - name: JP (Trojan)  (OpenAI)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: jp.mjt000.com
   sni: jp.mjt000.com
   type: trojan
   udp: true
 - name: SG (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: sg.mjt000.com
   sni: sg.mjt000.com
   type: trojan
   udp: true
 - name: KH (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: kh.mjt000.com
   sni: kh.mjt000.com
   type: trojan
   udp: true
 - name: VN (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: vn.mjt000.com
   sni: vn.mjt000.com
   type: trojan
   udp: true
 - name: WAP (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: hinet.mjt000.com
   sni: hinet.mjt000.com
   type: trojan
   udp: true
 - name: wap (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: waphk.mjt000.com
   sni: waphk.mjt000.com
   type: trojan
   udp: true
 - name: KR (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: kr.mjt000.com
   sni: kr.mjt000.com
   type: trojan
   udp: true
 - name: IL (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: il.mjt000.com
   sni: il.mjt000.com
   type: trojan
   udp: true
 - name: KZ (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: kz.mjt000.com
   sni: kz.mjt000.com
   type: trojan
   udp: true
 - name: US LA (Trojan)  (OpenAI)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: usla.mjt000.com
   sni: usla.mjt000.com
   type: trojan
   udp: true
 - name: UK (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: uk.mjt000.com
   sni: uk.mjt000.com
   type: trojan
   udp: true
 - name: PL (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: pl.mjt000.com
   sni: pl.mjt000.com
   type: trojan
   udp: true
 - name: CH (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: ch.mjt000.com
   sni: ch.mjt000.com
   type: trojan
   udp: true
 - name: PT (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: pt.mjt000.com
   sni: pt.mjt000.com
   type: trojan
   udp: true
 - name: LUX (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: lux.mjt000.com
   sni: lux.mjt000.com
   type: trojan
   udp: true
 - name: AU (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: au.mjt000.com
   sni: au.mjt000.com
   type: trojan
   udp: true
 - name: RU (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: ru.mjt000.com
   sni: ru.mjt000.com
   type: trojan
   udp: true
 - name: UA (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: ua.mjt000.com
   sni: ua.mjt000.com
   type: trojan
   udp: true
 - name: TR (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: tr.mjt000.com
   sni: tr.mjt000.com
   type: trojan
   udp: true
 - name: AR (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: ar.mjt000.com
   sni: ar.mjt000.com
   type: trojan
   udp: true
 - name: NI (Trojan)
-  password: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
   server: ni.mjt000.com
   sni: ni.mjt000.com
@@ -169,7 +169,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: JP 2  (OpenAI)
@@ -178,7 +178,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: JP 3  (OpenAI)
@@ -187,7 +187,7 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: SG 1
@@ -196,7 +196,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: SG 2
@@ -205,7 +205,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: SG 3
@@ -214,7 +214,7 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: WAP 1
@@ -223,7 +223,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: WAP 2
@@ -232,7 +232,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: IN 1
@@ -241,7 +241,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: TW 1
@@ -250,7 +250,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: TW 2
@@ -259,7 +259,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: TW 3
@@ -268,7 +268,7 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: US LA 1  (OpenAI)
@@ -277,7 +277,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: US LA 2  (OpenAI)
@@ -286,7 +286,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: US LA 3  (OpenAI)
@@ -295,7 +295,7 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: UK 1
@@ -304,7 +304,7 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: UK 2
@@ -313,7 +313,7 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 - alterId: 0
   cipher: auto
   name: UK 3
@@ -322,7 +322,7 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 7c22db93-825c-4c13-88e5-0e6411a9df85
+  uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -371,7 +371,7 @@ proxy-groups:
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
 - DOMAIN,salenzo.github.io,DIRECT
-- DOMAIN,mo.mojieurl.com,DIRECT
+- DOMAIN,moji.mojieurl.com,DIRECT
 - "DOMAIN-KEYWORD,mojie,\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\
   \u6BCF\u4E2A\u89D2\u843D\uFF01"
 - "PROCESS-NAME,Thunder,\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\
