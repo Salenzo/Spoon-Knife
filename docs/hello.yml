@@ -327,8 +327,8 @@ proxies:
   cipher: auto
   name: TEST
   network: ws
-  port: 6699
-  server: 170.187.240.57
+  port: 616
+  server: 219.78.236.250
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
