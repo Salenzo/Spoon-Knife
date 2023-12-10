@@ -213,6 +213,13 @@ proxies:
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
+  ws-headers:
+    Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: WAP 2
@@ -222,6 +229,13 @@ proxies:
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
+  ws-headers:
+    Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: HKT 2
@@ -290,6 +304,13 @@ proxies:
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
+  ws-headers:
+    Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: US LA 2  (OpenAI)
@@ -299,6 +320,13 @@ proxies:
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
+  ws-headers:
+    Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: US LA 3  (OpenAI)
@@ -308,6 +336,13 @@ proxies:
   type: vmess
   udp: true
   uuid: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
+  ws-headers:
+    Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 15277b837f6644902e4e6a9476043fc7.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: UK 1
