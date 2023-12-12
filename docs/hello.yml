@@ -91,13 +91,6 @@ proxies:
   sni: uk.mjt000.com
   type: trojan
   udp: true
-- name: PL (Trojan)
-  password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
-  port: 443
-  server: pl.mjt000.com
-  sni: pl.mjt000.com
-  type: trojan
-  udp: true
 - name: CH (Trojan)
   password: e71e3fc6-b86e-4d09-9150-11f2eb9a5304
   port: 443
@@ -445,7 +438,6 @@ proxy-groups:
   - KZ (Trojan)
   - LUX (Trojan)
   - NI (Trojan)
-  - PL (Trojan)
   - PT (Trojan)
   - RU (Trojan)
   - SG (Trojan)
