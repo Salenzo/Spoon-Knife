@@ -296,30 +296,19 @@ proxies:
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
+  ws-headers:
+    Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: UK 2
   network: ws
   port: 16645
   server: m.cnmjcn.com
-  type: vmess
-  udp: true
-  uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
-- alterId: 0
-  cipher: auto
-  name: UK 3
-  network: ws
-  port: 16645
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
-- alterId: 0
-  cipher: auto
-  name: '1'
-  network: ws
-  port: 16638
-  server: yes.cnmjcn.net
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
@@ -332,10 +321,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '2'
+  name: UK 3
   network: ws
-  port: 16638
-  server: m.cnmjcn.com
+  port: 16645
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
@@ -442,8 +431,6 @@ proxy-groups:
     \u843D\uFF01"
   proxies:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
-  - '1'
-  - '2'
   - AR (Trojan)
   - AU (Trojan)
   - CH (Trojan)
