@@ -72,6 +72,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
+  ws-headers:
+    Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: JP 2  (OpenAI)
@@ -81,6 +88,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
+  ws-headers:
+    Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: JP 3  (OpenAI)
@@ -90,6 +104,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
+  ws-headers:
+    Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 59a136a7320f50b919f6026c6ccd7f68.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: SG 1
