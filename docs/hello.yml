@@ -63,6 +63,13 @@ proxies:
   sni: vn.mjt000.com
   type: trojan
   udp: true
+- name: KR (Trojan)
+  password: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
+  port: 443
+  server: kr.mjt000.com
+  sni: kr.mjt000.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: JP 1  (OpenAI)
@@ -421,13 +428,6 @@ proxies:
   sni: uk.mjt000.com
   type: trojan
   udp: true
-- name: PL (Trojan)
-  password: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
-  port: 443
-  server: pl.mjt000.com
-  sni: pl.mjt000.com
-  type: trojan
-  udp: true
 - name: AR (Trojan)
   password: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
   port: 443
@@ -459,10 +459,10 @@ proxy-groups:
   - JP 2  (OpenAI)
   - JP 3  (OpenAI)
   - KH (Trojan)
+  - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
   - NI (Trojan)
-  - PL (Trojan)
   - PT (Trojan)
   - RU (Trojan)
   - SG (Trojan)
