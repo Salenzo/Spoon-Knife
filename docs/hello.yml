@@ -196,7 +196,7 @@ proxies:
   name: HKT 2
   network: ws
   port: 16620
-  server: 120.233.43.33
+  server: m.cnmjcn.com
   type: vmess
   udp: true
   uuid: d7cc6ae9-3ad6-494a-bda3-625cdc982f84
