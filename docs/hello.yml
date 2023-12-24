@@ -14,6 +14,33 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: JP 1  (OpenAI)
+  network: ws
+  port: 16617
+  server: yes.cnmjcn.net
+  type: vmess
+  udp: true
+  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
+- alterId: 0
+  cipher: auto
+  name: JP 2  (OpenAI)
+  network: ws
+  port: 16617
+  server: m.cnmjcn.com
+  type: vmess
+  udp: true
+  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
+- alterId: 0
+  cipher: auto
+  name: JP 3  (OpenAI)
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
 - name: JP (Trojan)  (OpenAI)
   password: 8acb0043-7e89-4d5e-8720-4567402de2b7
   port: 443
@@ -28,13 +55,6 @@ proxies:
   sni: sg.mjt000.com
   type: trojan
   udp: true
-- name: US LA (Trojan)  (OpenAI)
-  password: 8acb0043-7e89-4d5e-8720-4567402de2b7
-  port: 443
-  server: usla.mjt000.com
-  sni: usla.mjt000.com
-  type: trojan
-  udp: true
 - name: KH (Trojan)
   password: 8acb0043-7e89-4d5e-8720-4567402de2b7
   port: 443
@@ -42,54 +62,13 @@ proxies:
   sni: kh.mjt000.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: JP 1  (OpenAI)
-  network: ws
-  port: 16617
-  server: yes.cnmjcn.net
-  type: vmess
+- name: US LA (Trojan)  (OpenAI)
+  password: 8acb0043-7e89-4d5e-8720-4567402de2b7
+  port: 443
+  server: usla.mjt000.com
+  sni: usla.mjt000.com
+  type: trojan
   udp: true
-  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
-  ws-headers:
-    Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: JP 2  (OpenAI)
-  network: ws
-  port: 16617
-  server: m.cnmjcn.com
-  type: vmess
-  udp: true
-  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
-  ws-headers:
-    Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: JP 3  (OpenAI)
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 8acb0043-7e89-4d5e-8720-4567402de2b7
-  ws-headers:
-    Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: e7cad5e891b5c2b7350fe52adcbbe8b3.mobgslb.tbcache.com
-    path: /
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: SG 1
