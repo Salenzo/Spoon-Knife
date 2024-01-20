@@ -284,6 +284,22 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: "\u671D\u9C9CKP"
+  network: ws
+  port: 2052
+  server: mj.kp.qwer.one
+  type: vmess
+  udp: true
+  uuid: 9cbe30ff-e8a2-4150-8d52-6fadaaeef5c6
+  ws-headers:
+    Host: 85b919859896489636c05434b3a7fede.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 85b919859896489636c05434b3a7fede.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: US LA 1  (OpenAI)
   network: ws
   port: 16648
@@ -515,6 +531,7 @@ proxy-groups:
   - WAP 1
   - WAP 2
   - wap (Trojan)
+  - "\u671D\u9C9CKP"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
