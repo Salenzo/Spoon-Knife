@@ -300,10 +300,26 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u671D\u9C9C 1"
+  name: "\u671D\u9C9C 2"
   network: ws
   port: 16628
-  server: 111.12.60.68
+  server: m.cnmjcn.com
+  type: vmess
+  udp: true
+  uuid: 0638eee6-2afe-4d2f-a67d-aded26e53be0
+  ws-headers:
+    Host: a1ea7a5c1869ecbaba08cdd5e0ad7d8e.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: a1ea7a5c1869ecbaba08cdd5e0ad7d8e.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\u671D\u9C9C 3"
+  network: ws
+  port: 16628
+  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: 0638eee6-2afe-4d2f-a67d-aded26e53be0
@@ -547,7 +563,8 @@ proxy-groups:
   - WAP 1
   - WAP 2
   - wap (Trojan)
-  - "\u671D\u9C9C 1"
+  - "\u671D\u9C9C 2"
+  - "\u671D\u9C9C 3"
   - "\u671D\u9C9CKP IPv6"
   type: select
 rules:
