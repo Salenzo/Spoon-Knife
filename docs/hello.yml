@@ -510,6 +510,13 @@ proxies:
   sni: ar.mjt000.com
   type: trojan
   udp: true
+- name: NI (Trojan)
+  password: 0638eee6-2afe-4d2f-a67d-aded26e53be0
+  port: 443
+  server: ni.mjt000.com
+  sni: ni.mjt000.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -531,6 +538,7 @@ proxy-groups:
   - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
+  - NI (Trojan)
   - PT (Trojan)
   - RU (Trojan)
   - SG (Trojan)
