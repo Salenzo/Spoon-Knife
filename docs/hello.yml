@@ -284,22 +284,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u671D\u9C9CKP IPv6"
-  network: ws
-  port: 2052
-  server: kp.useipv6now.com
-  type: vmess
-  udp: true
-  uuid: 41a20ff6-9228-4497-8ffd-ade997caf48b
-  ws-headers:
-    Host: 5187ad2eef24f41572199fc3d6acc77e.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 5187ad2eef24f41572199fc3d6acc77e.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: "\u671D\u9C9C 2"
   network: ws
   port: 16628
@@ -565,7 +549,6 @@ proxy-groups:
   - wap (Trojan)
   - "\u671D\u9C9C 2"
   - "\u671D\u9C9C 3"
-  - "\u671D\u9C9CKP IPv6"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
