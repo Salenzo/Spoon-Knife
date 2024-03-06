@@ -28,7 +28,7 @@ proxies:
   name: JP 2  (OpenAI)
   network: ws
   port: 16617
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -90,7 +90,7 @@ proxies:
   name: SG 2
   network: ws
   port: 16618
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -138,7 +138,7 @@ proxies:
   name: HY 2
   network: ws
   port: 16632
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -191,7 +191,7 @@ proxies:
   name: WAP 2
   network: ws
   port: 16622
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -207,7 +207,7 @@ proxies:
   name: HKT 2
   network: ws
   port: 16620
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -255,7 +255,7 @@ proxies:
   name: TW 2
   network: ws
   port: 16616
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -287,7 +287,7 @@ proxies:
   name: "\u671D\u9C9C 2"
   network: ws
   port: 16628
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -335,7 +335,7 @@ proxies:
   name: US LA 2  (OpenAI)
   network: ws
   port: 16648
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
@@ -383,7 +383,7 @@ proxies:
   name: UK 2
   network: ws
   port: 16645
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: e20a6cc6-7913-476a-81df-25d57108d981
