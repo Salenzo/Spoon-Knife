@@ -438,13 +438,6 @@ proxies:
   sni: kr.mjt000.com
   type: trojan
   udp: true
-- name: CH (Trojan)
-  password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
-  port: 443
-  server: ch.mjt000.com
-  sni: ch.mjt000.com
-  type: trojan
-  udp: true
 - name: PT (Trojan)
   password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
   port: 443
@@ -515,7 +508,6 @@ proxy-groups:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - AR (Trojan)
   - AU (Trojan)
-  - CH (Trojan)
   - HKT 2
   - HY 1
   - HY 2
