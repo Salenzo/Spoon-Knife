@@ -438,6 +438,13 @@ proxies:
   sni: kr.mjt000.com
   type: trojan
   udp: true
+- name: "\u610FIT (Trojan)"
+  password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
+  port: 443
+  server: it.mjt000.com
+  sni: it.mjt000.com
+  type: trojan
+  udp: true
 - name: PT (Trojan)
   password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
   port: 443
@@ -546,6 +553,7 @@ proxy-groups:
   - WAP 1
   - WAP 2
   - wap (Trojan)
+  - "\u610FIT (Trojan)"
   - "\u671D\u9C9C 2"
   - "\u671D\u9C9C 3"
   - "\u8FEA\u62DCD (Trojan)"
