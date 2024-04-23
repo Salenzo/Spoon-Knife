@@ -71,7 +71,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: SG 1
+  name: SG 1  (OpenAI)
   network: ws
   port: 16618
   server: yes.cnmjcn.net
@@ -380,7 +380,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: UK 2
+  name: UK 2  (OpenAI)
   network: ws
   port: 16645
   server: m.cnmjin.net
@@ -396,7 +396,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: UK 3
+  name: UK 3  (OpenAI)
   network: ws
   port: 16645
   server: t.cnmjcn.cyou
@@ -532,7 +532,7 @@ proxy-groups:
   - PT (Trojan)
   - RU (Trojan)
   - SG (Trojan)
-  - SG 1
+  - SG 1  (OpenAI)
   - SG 2
   - SG 3
   - TR (Trojan)
@@ -542,8 +542,8 @@ proxy-groups:
   - UA (Trojan)
   - UK (Trojan)
   - UK 1
-  - UK 2
-  - UK 3
+  - UK 2  (OpenAI)
+  - UK 3  (OpenAI)
   - US LA (Trojan)  (OpenAI)
   - US LA 1  (OpenAI)
   - US LA 2  (OpenAI)
