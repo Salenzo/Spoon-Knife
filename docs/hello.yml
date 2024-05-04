@@ -431,13 +431,6 @@ proxies:
   sni: lux.mjt000.com
   type: trojan
   udp: true
-- name: KR (Trojan)
-  password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
-  port: 443
-  server: kr.mjt000.com
-  sni: kr.mjt000.com
-  type: trojan
-  udp: true
 - name: "\u610FIT (Trojan)"
   password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
   port: 443
@@ -501,13 +494,6 @@ proxies:
   sni: ni.mjt000.com
   type: trojan
   udp: true
-- name: "\u8FEA\u62DCD (Trojan)"
-  password: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
-  port: 443
-  server: di.mjt000.com
-  sni: di.mjt000.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -525,7 +511,6 @@ proxy-groups:
   - JP 2  (OpenAI)
   - JP 3  (OpenAI)
   - KH (Trojan)
-  - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
   - NI (Trojan)
@@ -556,7 +541,6 @@ proxy-groups:
   - "\u610FIT (Trojan)"
   - "\u671D\u9C9C 2"
   - "\u671D\u9C9C 3"
-  - "\u8FEA\u62DCD (Trojan)"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
