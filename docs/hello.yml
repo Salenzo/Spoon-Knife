@@ -220,6 +220,22 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: IN 1
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  type: vmess
+  udp: true
+  uuid: d64b413f-5420-4ab5-ab59-1a9dbb635fa9
+  ws-headers:
+    Host: b5315bd200edc3d9c50d9613b724a125.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: b5315bd200edc3d9c50d9613b724a125.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: TW 1
   network: ws
   port: 16616
@@ -496,6 +512,7 @@ proxy-groups:
   - HY 1
   - HY 2
   - IL (Trojan)
+  - IN 1
   - JP (Trojan)  (OpenAI)
   - JP 1  (OpenAI)
   - JP 2  (OpenAI)
