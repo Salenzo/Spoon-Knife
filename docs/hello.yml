@@ -284,38 +284,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: KP 2
-  network: ws
-  port: 16628
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 21128eb1-2246-44de-93f6-e3578d962de6
-  ws-headers:
-    Host: 879296b2c7ccda3002f5624bb0b6756f.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 879296b2c7ccda3002f5624bb0b6756f.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: KP 3
-  network: ws
-  port: 16628
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 21128eb1-2246-44de-93f6-e3578d962de6
-  ws-headers:
-    Host: 879296b2c7ccda3002f5624bb0b6756f.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 879296b2c7ccda3002f5624bb0b6756f.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: US LA 1  (OpenAI)
   network: ws
   port: 16648
@@ -515,8 +483,6 @@ proxy-groups:
   - JP 2
   - JP 3
   - KH (Trojan)
-  - KP 2
-  - KP 3
   - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
