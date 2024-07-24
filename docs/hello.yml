@@ -172,22 +172,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HKT 2
-  network: ws
-  port: 16620
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 30594705-dcc8-4e1e-9934-d5a91f26cb2e
-  ws-headers:
-    Host: 0e3e984fc0a204d98ad78d95f935bd3b.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 0e3e984fc0a204d98ad78d95f935bd3b.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: IN 1
   network: ws
   port: 16626
@@ -433,7 +417,6 @@ proxy-groups:
   - HK WAP (Trojan)
   - HK WAP 1
   - HK WAP 2
-  - HKT 2
   - IL (Trojan)
   - IN 1
   - IT (Trojan)
