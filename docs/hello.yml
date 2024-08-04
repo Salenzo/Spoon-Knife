@@ -284,7 +284,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: UK 1
+  name: UK 1  (OpenAI)
   network: ws
   port: 16645
   server: yes.cnmjcn.net
@@ -440,7 +440,7 @@ proxy-groups:
   - TW WAP (Trojan)
   - UA (Trojan)
   - UK (Trojan)
-  - UK 1
+  - UK 1  (OpenAI)
   - UK 2
   - UK 3
   - US LA (Trojan)  (OpenAI)
