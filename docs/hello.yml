@@ -14,6 +14,14 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
+- down: 1000
+  name: "\u6D4B\u8BD5hy2"
+  password: 30594705-dcc8-4e1e-9934-d5a91f26cb2e
+  port: 6636
+  server: test.mojie.co
+  skip-cert-verify: true
+  type: hysteria2
+  up: 1000
 - alterId: 0
   cipher: auto
   name: JP 1
@@ -448,6 +456,7 @@ proxy-groups:
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
   - VN (Trojan)
+  - "\u6D4B\u8BD5hy2"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
