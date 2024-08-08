@@ -16,15 +16,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\u8FC7\u6EE4\u63891\u6761\u7EBF\u8DEF"
-  network: ws
-  port: 16617
-  server: yes.cnmjcn.net
-  type: vmess
-  udp: true
-  uuid: 30594705-dcc8-4e1e-9934-d5a91f26cb2e
-- alterId: 0
-  cipher: auto
   name: JP 1
   network: ws
   port: 16617
@@ -457,7 +448,6 @@ proxy-groups:
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
   - VN (Trojan)
-  - "\u8FC7\u6EE4\u63891\u6761\u7EBF\u8DEF"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
