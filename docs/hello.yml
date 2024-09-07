@@ -388,13 +388,6 @@ proxies:
   sni: lux.mjt000.com
   type: trojan
   udp: true
-- name: KR (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
-  port: 443
-  server: kr.mjt000.com
-  sni: kr.mjt000.com
-  type: trojan
-  udp: true
 - name: IT (Trojan)
   password: 34466b45-1158-4475-beb9-f9fbe174faf8
   port: 443
@@ -451,6 +444,13 @@ proxies:
   sni: ar.mjt000.com
   type: trojan
   udp: true
+- name: NI (Trojan)
+  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  port: 443
+  server: ni.mjt000.com
+  sni: ni.mjt000.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: "\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\u6BCF\u4E2A\u89D2\
     \u843D\uFF01"
@@ -469,9 +469,9 @@ proxy-groups:
   - JP 2
   - JP 3
   - KH (Trojan)
-  - KR (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
+  - NI (Trojan)
   - PT (Trojan)
   - RU (Trojan)
   - SG (Trojan)
