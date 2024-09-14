@@ -22,12 +22,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -38,12 +38,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -54,12 +54,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -70,37 +70,37 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - name: JP (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: jp.mjt000.com
   sni: jp.mjt000.com
   type: trojan
   udp: true
 - name: SG (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: sg.mjt000.com
   sni: sg.mjt000.com
   type: trojan
   udp: true
 - name: KH (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: kh.mjt000.com
   sni: kh.mjt000.com
   type: trojan
   udp: true
 - name: US LA (Trojan)  (OpenAI)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: usla.mjt000.com
   sni: usla.mjt000.com
@@ -114,12 +114,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -130,12 +130,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -146,30 +146,30 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - name: HK WAP (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: waphk.mjt000.com
   sni: waphk.mjt000.com
   type: trojan
   udp: true
 - name: TW WAP (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: hinet.mjt000.com
   sni: hinet.mjt000.com
   type: trojan
   udp: true
 - name: VN (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: vn.mjt000.com
   sni: vn.mjt000.com
@@ -183,12 +183,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -199,12 +199,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -215,12 +215,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -231,12 +231,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -247,12 +247,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -263,12 +263,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -279,12 +279,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -295,12 +295,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -311,12 +311,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -327,12 +327,12 @@ proxies:
   server: yes.cnmjcn.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -343,12 +343,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -359,100 +359,100 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: 34466b45-1158-4475-beb9-f9fbe174faf8
+  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   ws-headers:
-    Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: 64749f944398f5d01230e6ae1ab30c5a.mobgslb.tbcache.com
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
 - name: AU (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: au.mjt000.com
   sni: au.mjt000.com
   type: trojan
   udp: true
 - name: TR (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: tr.mjt000.com
   sni: tr.mjt000.com
   type: trojan
   udp: true
 - name: LUX (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: lux.mjt000.com
   sni: lux.mjt000.com
   type: trojan
   udp: true
 - name: KR (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: kr.mjt000.com
   sni: kr.mjt000.com
   type: trojan
   udp: true
 - name: IT (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: it.mjt000.com
   sni: it.mjt000.com
   type: trojan
   udp: true
 - name: PT (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: pt.mjt000.com
   sni: pt.mjt000.com
   type: trojan
   udp: true
 - name: RU (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: ru.mjt000.com
   sni: ru.mjt000.com
   type: trojan
   udp: true
 - name: KZ (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: kz.mjt000.com
   sni: kz.mjt000.com
   type: trojan
   udp: true
 - name: UA (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: ua.mjt000.com
   sni: ua.mjt000.com
   type: trojan
   udp: true
 - name: IL (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: il.mjt000.com
   sni: il.mjt000.com
   type: trojan
   udp: true
 - name: UK (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: uk.mjt000.com
   sni: uk.mjt000.com
   type: trojan
   udp: true
 - name: AR (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: ar.mjt000.com
   sni: ar.mjt000.com
   type: trojan
   udp: true
 - name: NI (Trojan)
-  password: 34466b45-1158-4475-beb9-f9fbe174faf8
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: ni.mjt000.com
   sni: ni.mjt000.com
@@ -506,7 +506,7 @@ proxy-groups:
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
 - DOMAIN,salenzo.github.io,DIRECT
-- DOMAIN,mojie.app,DIRECT
+- DOMAIN,onlysub.mjurl.com,DIRECT
 - "DOMAIN-KEYWORD,mojie,\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\
   \u6BCF\u4E2A\u89D2\u843D\uFF01"
 - "DOMAIN,chat.openai.com.cdn.cloudflare.net,\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\
