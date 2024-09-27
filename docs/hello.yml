@@ -395,6 +395,13 @@ proxies:
   sni: kr.mjt000.com
   type: trojan
   udp: true
+- name: "\u671D\u9C9CKP (Trojan)"
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  port: 443
+  server: kp.mjt000.com
+  sni: kp.mjt000.com
+  type: trojan
+  udp: true
 - name: IT (Trojan)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
@@ -501,6 +508,7 @@ proxy-groups:
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
   - VN (Trojan)
+  - "\u671D\u9C9CKP (Trojan)"
   - "\u8FC7\u6EE4\u63891\u6761\u7EBF\u8DEF"
   type: select
 rules:
