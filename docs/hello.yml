@@ -161,7 +161,7 @@ proxies:
   sni: waphk.mjt000.com
   type: trojan
   udp: true
-- name: TW WAP (Trojan)
+- name: TW WAP (Trojan)  (OpenAI)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
   server: hinet.mjt000.com
@@ -497,7 +497,7 @@ proxy-groups:
   - TW 1
   - TW 2
   - TW 3
-  - TW WAP (Trojan)
+  - TW WAP (Trojan)  (OpenAI)
   - UA (Trojan)
   - UK (Trojan)
   - UK 1  (OpenAI)
