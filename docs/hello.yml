@@ -369,7 +369,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '1'
+  name: "1\uFF08\u526F\u672C\uFF09"
   network: ws
   port: 16644
   server: yes.cnmjcn.net
@@ -385,7 +385,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '2'
+  name: "2\uFF08\u526F\u672C\uFF09"
   network: ws
   port: 16644
   server: m.cnmjcn.com
@@ -551,9 +551,9 @@ proxy-groups:
   proxies:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - '1'
-  - '1'
+  - "1\uFF08\u526F\u672C\uFF09"
   - '2'
-  - '2'
+  - "2\uFF08\u526F\u672C\uFF09"
   - '3'
   - AR (Trojan)
   - AU (Trojan)
