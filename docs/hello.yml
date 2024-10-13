@@ -89,8 +89,9 @@ proxies:
 - name: SG (Trojan)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
-  server: sg.mjt000.com
-  sni: sg.mjt000.com
+  server: t.mtrojan.com
+  skip-cert-verify: true
+  sni: sg.baidu.com
   type: trojan
   udp: true
 - name: KH (Trojan)
