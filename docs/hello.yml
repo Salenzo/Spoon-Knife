@@ -81,17 +81,17 @@ proxies:
 - name: JP (Trojan)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
-  server: t.mtrojan.com
+  server: jp.mjt000.com
   skip-cert-verify: true
-  sni: jp.baidu.com
+  sni: jp.mjt000.com
   type: trojan
   udp: true
 - name: SG (Trojan)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
-  server: t.mtrojan.com
+  server: sg.mjt000.com
   skip-cert-verify: true
-  sni: sg.baidu.com
+  sni: sg.mjt000.com
   type: trojan
   udp: true
 - name: KH (Trojan)
