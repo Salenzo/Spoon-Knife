@@ -19,7 +19,7 @@ proxies:
   name: "\u8FC7\u6EE4\u63893\u6761\u7EBF\u8DEF"
   network: ws
   port: 16617
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -35,7 +35,7 @@ proxies:
   name: JP 1
   network: ws
   port: 16617
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -113,7 +113,7 @@ proxies:
   name: SG 1
   network: ws
   port: 16618
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -182,7 +182,7 @@ proxies:
   name: '1'
   network: ws
   port: 16623
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -230,7 +230,7 @@ proxies:
   name: HK WAP 1
   network: ws
   port: 16622
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -262,7 +262,7 @@ proxies:
   name: IN 1
   network: ws
   port: 16626
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -278,7 +278,7 @@ proxies:
   name: TW 1
   network: ws
   port: 16616
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -326,7 +326,7 @@ proxies:
   name: US LA 1  (OpenAI)
   network: ws
   port: 16648
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -374,7 +374,7 @@ proxies:
   name: "1\uFF08\u526F\u672C\uFF09"
   network: ws
   port: 16644
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
@@ -406,7 +406,7 @@ proxies:
   name: UK 1  (OpenAI)
   network: ws
   port: 16645
-  server: yes.cnmjcn.net
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
