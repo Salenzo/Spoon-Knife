@@ -16,7 +16,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\u8FC7\u6EE4\u63891\u6761\u7EBF\u8DEF"
+  name: "\u8FC7\u6EE4\u63893\u6761\u7EBF\u8DEF"
   network: ws
   port: 16617
   server: yes.mojcn.com
@@ -588,7 +588,7 @@ proxy-groups:
   - US LA 3  (OpenAI)
   - VN (Trojan)
   - "\u671D\u9C9CKP (Trojan)"
-  - "\u8FC7\u6EE4\u63891\u6761\u7EBF\u8DEF"
+  - "\u8FC7\u6EE4\u63893\u6761\u7EBF\u8DEF"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
