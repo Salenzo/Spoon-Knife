@@ -627,6 +627,7 @@ proxy-groups:
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
 - DOMAIN,salenzo.github.io,DIRECT
+- PROCESS-NAME,FontCreator.exe,REJECT
 - DOMAIN,api.mojie.ws,DIRECT
 - "DOMAIN-KEYWORD,mojie,\u6211\u60F3\u8981\u8E0F\u904D\u8FD9\u7247\u5927\u5730\u7684\
   \u6BCF\u4E2A\u89D2\u843D\uFF01"
