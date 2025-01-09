@@ -275,7 +275,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: TW 2
+  name: TW 2  (OpenAI)
   network: ws
   port: 16616
   server: m.cnmjin.net
@@ -605,7 +605,7 @@ proxy-groups:
   - SG 3
   - TR (Trojan)
   - TW 1
-  - TW 2
+  - TW 2  (OpenAI)
   - TW 3
   - TW WAP (Trojan)  (OpenAI)
   - UA (Trojan)
