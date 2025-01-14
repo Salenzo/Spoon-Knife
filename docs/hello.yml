@@ -19,19 +19,17 @@ proxies:
   name: "\u8FC7\u6EE4\u63893\u6761\u7EBF\u8DEF"
   network: ws
   port: 16617
-  server: g.cccao.cyou
+  server: yes.mojcn.com
   type: vmess
   udp: true
   uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-- alterId: 0
-  cipher: auto
-  name: "JP \u667A\u80FD"
-  network: ws
-  port: 16617
-  server: g.cccao.cyou
-  type: vmess
-  udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  ws-headers:
+    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: JP 1
@@ -595,7 +593,6 @@ proxy-groups:
   - JP 1
   - JP 2
   - JP 3
-  - "JP \u667A\u80FD"
   - KH (Trojan)
   - KZ (Trojan)
   - LUX (Trojan)
