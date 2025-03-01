@@ -188,27 +188,6 @@ proxies:
       Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: HK WAP (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: waphk.mjt000.com
-  sni: waphk.mjt000.com
-  type: trojan
-  udp: true
-- name: TW WAP (Trojan)  (OpenAI)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: hinet.mjt000.com
-  sni: hinet.mjt000.com
-  type: trojan
-  udp: true
-- name: VN (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: vn.mjt000.com
-  sni: vn.mjt000.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: HK WAP 1
@@ -241,6 +220,27 @@ proxies:
       Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
+- name: HK WAP (Trojan)
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  port: 443
+  server: waphk.mjt000.com
+  sni: waphk.mjt000.com
+  type: trojan
+  udp: true
+- name: TW WAP (Trojan)  (OpenAI)
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  port: 443
+  server: hinet.mjt000.com
+  sni: hinet.mjt000.com
+  type: trojan
+  udp: true
+- name: VN (Trojan)
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  port: 443
+  server: vn.mjt000.com
+  sni: vn.mjt000.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: IN 1
