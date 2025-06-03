@@ -101,6 +101,13 @@ proxies:
   sni: kh.mjt000.com
   type: trojan
   udp: true
+- name: US LA (Trojan)  (OpenAI)
+  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  port: 443
+  server: usla.mjt000.com
+  sni: usla.mjt000.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: SG 1
@@ -590,6 +597,7 @@ proxy-groups:
   - UK 1  (OpenAI)
   - UK 2
   - UK 3
+  - US LA (Trojan)  (OpenAI)
   - US LA 1  (OpenAI)
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
