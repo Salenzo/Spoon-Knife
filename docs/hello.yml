@@ -544,13 +544,6 @@ proxies:
   sni: uk.mjt000.com
   type: trojan
   udp: true
-- name: AR (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: ar.mjt000.com
-  sni: ar.mjt000.com
-  type: trojan
-  udp: true
 - name: NI (Trojan)
   password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
   port: 443
@@ -565,7 +558,6 @@ proxy-groups:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - '1'
   - '2'
-  - AR (Trojan)
   - AU (Trojan)
   - HK WAP (Trojan)
   - HK WAP 1
