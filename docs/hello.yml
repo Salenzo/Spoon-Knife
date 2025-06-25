@@ -78,36 +78,6 @@ proxies:
       Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: JP (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: jp.mjt000.com
-  skip-cert-verify: true
-  sni: jp.mjt000.com
-  type: trojan
-  udp: true
-- name: SG (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: true
-  sni: sg.mjt000.com
-  type: trojan
-  udp: true
-- name: KH (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: kh.mjt000.com
-  sni: kh.mjt000.com
-  type: trojan
-  udp: true
-- name: US LA (Trojan)  (OpenAI)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: usla.mjt000.com
-  sni: usla.mjt000.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: SG 1
@@ -220,27 +190,6 @@ proxies:
       Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: HK WAP (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: waphk.mjt000.com
-  sni: waphk.mjt000.com
-  type: trojan
-  udp: true
-- name: TW WAP (Trojan)  (OpenAI)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: hinet.mjt000.com
-  sni: hinet.mjt000.com
-  type: trojan
-  udp: true
-- name: VN (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: vn.mjt000.com
-  sni: vn.mjt000.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: IN 1
@@ -481,83 +430,6 @@ proxies:
       Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: AU (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: au.mjt000.com
-  sni: au.mjt000.com
-  type: trojan
-  udp: true
-- name: TR (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: tr.mjt000.com
-  sni: tr.mjt000.com
-  type: trojan
-  udp: true
-- name: "\u671D\u9C9CKP (Trojan)"
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: kp.mjt000.com
-  sni: kp.mjt000.com
-  type: trojan
-  udp: true
-- name: IT (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: it.mjt000.com
-  sni: it.mjt000.com
-  type: trojan
-  udp: true
-- name: PT (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: pt.mjt000.com
-  sni: pt.mjt000.com
-  type: trojan
-  udp: true
-- name: RU (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: ru.mjt000.com
-  sni: ru.mjt000.com
-  type: trojan
-  udp: true
-- name: KZ (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: kz.mjt000.com
-  sni: kz.mjt000.com
-  type: trojan
-  udp: true
-- name: UA (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: ua.mjt000.com
-  sni: ua.mjt000.com
-  type: trojan
-  udp: true
-- name: IL (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: il.mjt000.com
-  sni: il.mjt000.com
-  type: trojan
-  udp: true
-- name: UK (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: uk.mjt000.com
-  sni: uk.mjt000.com
-  type: trojan
-  udp: true
-- name: NI (Trojan)
-  password: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
-  port: 443
-  server: ni.mjt000.com
-  sni: ni.mjt000.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: "\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\
     \u522B\u7559\u4E0B\u6211\u3002"
@@ -565,47 +437,29 @@ proxy-groups:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
   - '1'
   - '2'
-  - AU (Trojan)
-  - HK WAP (Trojan)
   - HK WAP 1
   - HK WAP 2
   - HY 1
   - HY 2
-  - IL (Trojan)
   - IN 1
-  - IT (Trojan)
-  - JP (Trojan)
   - JP 1
   - JP 2
   - JP 3
-  - KH (Trojan)
-  - KZ (Trojan)
-  - NI (Trojan)
-  - PT (Trojan)
-  - RU (Trojan)
-  - SG (Trojan)
   - SG 1
   - SG 2
   - SG 3
-  - TR (Trojan)
   - TW 1
   - TW 2  (OpenAI)
   - TW 3
-  - TW WAP (Trojan)  (OpenAI)
-  - UA (Trojan)
-  - UK (Trojan)
   - UK 1  (OpenAI)
   - UK 2
   - UK 3
-  - US LA (Trojan)  (OpenAI)
   - US LA 1  (OpenAI)
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
-  - VN (Trojan)
   - "\u62FF 1"
   - "\u62FF 2"
   - "\u62FF 3"
-  - "\u671D\u9C9CKP (Trojan)"
   - "\u8FC7\u6EE4\u63896\u6761\u7EBF\u8DEF"
   type: select
 rules:
