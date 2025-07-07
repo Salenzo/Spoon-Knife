@@ -22,12 +22,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -38,12 +38,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -54,12 +54,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -70,12 +70,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -86,12 +86,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -102,12 +102,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -118,12 +118,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -134,12 +134,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -150,12 +150,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -166,12 +166,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -182,12 +182,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -198,12 +198,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -214,12 +214,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -230,12 +230,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -246,12 +246,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -262,12 +262,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -278,12 +278,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -294,12 +294,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -310,12 +310,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -326,12 +326,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -342,12 +342,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -358,12 +358,12 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -374,12 +374,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -390,12 +390,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -406,12 +406,12 @@ proxies:
   server: m.cnmjcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -422,12 +422,12 @@ proxies:
   server: yes.mojcn.com
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -438,12 +438,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -454,12 +454,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: c4e1ea7f-9dd9-474b-9aa0-a24efaeccf32
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
   ws-headers:
-    Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: a5ecc108861042cd40bcf706e37624d1.mobgslb.tbcache.com
+      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
 proxy-groups:
@@ -504,7 +504,7 @@ rules:
   \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - DOMAIN-SUFFIX,wenku8.net,DIRECT
 - DOMAIN-SUFFIX,maj-soul.com,DIRECT
-- DOMAIN,api.mojie.ws,DIRECT
+- DOMAIN,mjcdnsub.mjurl.com,DIRECT
 - "DOMAIN-KEYWORD,mojie,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\
   \u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - GEOIP,lan,DIRECT,no-resolve
