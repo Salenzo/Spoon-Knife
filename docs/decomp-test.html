@@ -11,7 +11,8 @@ w.write(new Uint8Array([0x78,0x9c,3]))
 w.close()
 await r.read()
 } catch (e) {
-aa.textContent=e.stack
+console.error(e)
+aa.textContent=String(e)+'\n\n'+e.stack
 }
 try{
 const a=new DecompressionStream('deflate')
@@ -21,6 +22,7 @@ w.write(new Uint8Array([0x78,0x9c,3,0,0,0,0,1,114,114,114]))
 w.close()
 await r.read()
 } catch (e) {
-bb.textContent=e.stack
+console.error(e)
+bb.textContent=String(e)+'\n\n'+e.stack
 }
 </script>
