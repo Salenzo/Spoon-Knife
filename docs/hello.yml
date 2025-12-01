@@ -80,7 +80,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: SG 1 Gemini
+  name: SG 1 Gemini  (OpenAI)
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -96,7 +96,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: SG 2 Gemini
+  name: SG 2 Gemini  (OpenAI)
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -479,8 +479,8 @@ proxy-groups:
   - JP 1
   - JP 2
   - JP 3
-  - SG 1 Gemini
-  - SG 2 Gemini
+  - SG 1 Gemini  (OpenAI)
+  - SG 2 Gemini  (OpenAI)
   - SG 3 Gemini
   - TW 1
   - TW 2  (OpenAI)
