@@ -16,22 +16,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\u8FC7\u6EE4\u638914\u6761\u7EBF\u8DEF"
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
-  ws-headers:
-    Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: JP 1
   network: ws
   port: 16617
@@ -336,7 +320,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u62FF 1"
+  name: CA 1
   network: ws
   port: 16641
   server: planb.mojcn.com
@@ -352,7 +336,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u62FF 2"
+  name: CA 2
   network: ws
   port: 16641
   server: m.cnmjcn.com
@@ -368,7 +352,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "\u62FF 3"
+  name: CA 3
   network: ws
   port: 16641
   server: t.cnmjcn.cyou
@@ -384,7 +368,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '1'
+  name: DE 1
   network: ws
   port: 16644
   server: planb.mojcn.com
@@ -400,7 +384,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '2'
+  name: DE 2
   network: ws
   port: 16644
   server: m.cnmjcn.com
@@ -467,11 +451,14 @@ proxy-groups:
     \u522B\u7559\u4E0B\u6211\u3002"
   proxies:
   - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
-  - '1'
   - 1 Gemini
-  - '2'
   - 2 Gemini
   - 3 Gemini
+  - CA 1
+  - CA 2
+  - CA 3
+  - DE 1
+  - DE 2
   - HK WAP 1 Gemini
   - HK WAP 2 Gemini
   - HK WAP 3 Gemini
@@ -491,10 +478,6 @@ proxy-groups:
   - US LA 1  (OpenAI)
   - US LA 2  (OpenAI)
   - US LA 3  (OpenAI)
-  - "\u62FF 1"
-  - "\u62FF 2"
-  - "\u62FF 3"
-  - "\u8FC7\u6EE4\u638914\u6761\u7EBF\u8DEF"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
