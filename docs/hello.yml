@@ -339,7 +339,7 @@ proxies:
   name: CA 2
   network: ws
   port: 16641
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
@@ -387,7 +387,7 @@ proxies:
   name: DE 2
   network: ws
   port: 16644
-  server: m.cnmjcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
