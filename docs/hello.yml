@@ -67,7 +67,7 @@ proxies:
   name: JP 4
   network: ws
   port: 80
-  server: hi.cdn.shoes-relativity.online
+  server: hi.cdn.fwprivate.online
   type: vmess
   udp: true
   uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
@@ -176,10 +176,10 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK 4
+  name: HK 4 Gemini
   network: ws
   port: 80
-  server: hi.cdn.shoes-relativity.online
+  server: hi.cdn.fwprivate.online
   type: vmess
   udp: true
   uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
@@ -491,7 +491,7 @@ proxy-groups:
   - HK 1 Gemini
   - HK 2 Gemini
   - HK 3 Gemini
-  - HK 4
+  - HK 4 Gemini
   - HK WAP 1 Gemini
   - HK WAP 2 Gemini
   - HK WAP 3 Gemini
