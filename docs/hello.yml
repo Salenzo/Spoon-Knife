@@ -176,6 +176,22 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: HK 4
+  network: ws
+  port: 80
+  server: hi.cdn.shoes-relativity.online
+  type: vmess
+  udp: true
+  uuid: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  ws-headers:
+    Host: cd5d86afcf16c275b2af575c2242a350.cdn.shoes-relativity.online
+  ws-opts:
+    headers:
+      Host: cd5d86afcf16c275b2af575c2242a350.cdn.shoes-relativity.online
+    path: /hk
+  ws-path: /hk
+- alterId: 0
+  cipher: auto
   name: HK WAP 1 Gemini
   network: ws
   port: 16622
@@ -475,6 +491,7 @@ proxy-groups:
   - HK 1 Gemini
   - HK 2 Gemini
   - HK 3 Gemini
+  - HK 4
   - HK WAP 1 Gemini
   - HK WAP 2 Gemini
   - HK WAP 3 Gemini
