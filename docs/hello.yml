@@ -64,7 +64,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: "JP \u6D4B\u8BD54"
+  name: JP 4
   network: ws
   port: 80
   server: hi.cdn.shoes-relativity.online
@@ -482,7 +482,7 @@ proxy-groups:
   - JP 1
   - JP 2
   - JP 3
-  - "JP \u6D4B\u8BD54"
+  - JP 4
   - SG 1 Gemini  (OpenAI)
   - SG 2 Gemini  (OpenAI)
   - SG 3 Gemini
