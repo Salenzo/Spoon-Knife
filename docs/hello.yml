@@ -668,6 +668,7 @@ rules:
 - DOMAIN-SUFFIX,wenku8.net,DIRECT
 - DOMAIN-SUFFIX,maj-soul.com,DIRECT
 - DOMAIN-SUFFIX,zi.tools,DIRECT
+- DOMAIN-SUFFIX,yeah.net,DIRECT
 - DOMAIN-SUFFIX,api.github.com,DIRECT
 - DOMAIN-SUFFIX,ts.net,DIRECT
 - DOMAIN,mjcdnsub.mjurl.com,DIRECT
