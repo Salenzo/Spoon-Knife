@@ -62,9 +62,39 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- down: 10000
+  name: JP Hysteria2
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: JP AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1663
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
+- down: 10000
+  name: SG Hysteria2
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1443
+  server: sg.mjhy2.com
+  skip-cert-verify: true
+  sni: sg.mjhy2.com
+  type: hysteria2
+  up: 10000
 - alterId: 0
   cipher: auto
-  name: SG 1 Gemini  (OpenAI)
+  name: SG 1 (Gemini) (OpenAI)
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -80,7 +110,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: SG 2 Gemini  (OpenAI)
+  name: SG 2 (Gemini) (OpenAI)
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -96,7 +126,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: SG 3 Gemini
+  name: SG 3 (Gemini)
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -110,9 +140,21 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: HK AnyTLS (Gemini)
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1661
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK 1 Gemini
+  name: HK 1 (Gemini)
   network: ws
   port: 16632
   server: planb.mojcn.com
@@ -128,7 +170,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK 2 Gemini
+  name: HK 2 (Gemini)
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -144,7 +186,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK 3 Gemini
+  name: HK 3 (Gemini)
   network: ws
   port: 16632
   server: t.cnmjcn.cyou
@@ -160,7 +202,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK WAP 1 Gemini
+  name: HK WAP 1 (Gemini)
   network: ws
   port: 16622
   server: planb.mojcn.com
@@ -176,7 +218,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK WAP 2 Gemini
+  name: HK WAP 2 (Gemini)
   network: ws
   port: 16622
   server: m.cnmjin.net
@@ -192,7 +234,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: HK WAP 3 Gemini
+  name: HK WAP 3 (Gemini)
   network: ws
   port: 16622
   server: t.cnmjcn.cyou
@@ -206,6 +248,15 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- down: 10000
+  name: KR Hysteria2
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1443
+  server: kr.mjhy2.com
+  skip-cert-verify: true
+  sni: kr.mjhy2.com
+  type: hysteria2
+  up: 10000
 - alterId: 0
   cipher: auto
   name: IN 1
@@ -240,7 +291,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: TW 2  (OpenAI)
+  name: TW 2 (OpenAI)
   network: ws
   port: 16616
   server: m.cnmjin.net
@@ -270,9 +321,21 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US LA AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1672
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: us.mjanyt.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US LA 1  (OpenAI)
+  name: US LA 1 (OpenAI)
   network: ws
   port: 16648
   server: planb.mojcn.com
@@ -288,7 +351,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: US LA 2  (OpenAI)
+  name: US LA 2 (OpenAI)
   network: ws
   port: 16648
   server: m.cnmjin.net
@@ -304,7 +367,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: US LA 3  (OpenAI)
+  name: US LA 3 (OpenAI)
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -366,6 +429,14 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- down: 10000
+  name: DE Hysteria2
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1443
+  server: de.mjhy2.com
+  skip-cert-verify: true
+  type: hysteria2
+  up: 10000
 - alterId: 0
   cipher: auto
   name: DE 1
@@ -400,7 +471,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: UK 1  (OpenAI)
+  name: UK 1 (OpenAI)
   network: ws
   port: 16645
   server: planb.mojcn.com
@@ -446,6 +517,66 @@ proxies:
       Host: cd5d86afcf16c275b2af575c2242a350.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: VN AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1665
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: RU AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1671
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: eu.mjanyt.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: UA AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1674
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: eu.mjanyt.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: TR AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1673
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: eu.mjanyt.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: NG AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1681
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: eu.mjanyt.com
+  type: anytls
+  udp: true
 proxy-groups:
 - name: "\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\
     \u522B\u7559\u4E0B\u6211\u3002"
@@ -456,28 +587,40 @@ proxy-groups:
   - CA 3
   - DE 1
   - DE 2
-  - HK 1 Gemini
-  - HK 2 Gemini
-  - HK 3 Gemini
-  - HK WAP 1 Gemini
-  - HK WAP 2 Gemini
-  - HK WAP 3 Gemini
+  - DE Hysteria2
+  - HK 1 (Gemini)
+  - HK 2 (Gemini)
+  - HK 3 (Gemini)
+  - HK AnyTLS (Gemini)
+  - HK WAP 1 (Gemini)
+  - HK WAP 2 (Gemini)
+  - HK WAP 3 (Gemini)
   - IN 1
   - JP 1
   - JP 2
   - JP 3
-  - SG 1 Gemini  (OpenAI)
-  - SG 2 Gemini  (OpenAI)
-  - SG 3 Gemini
+  - JP AnyTLS
+  - JP Hysteria2
+  - KR Hysteria2
+  - NG AnyTLS
+  - RU AnyTLS
+  - SG 1 (Gemini) (OpenAI)
+  - SG 2 (Gemini) (OpenAI)
+  - SG 3 (Gemini)
+  - SG Hysteria2
+  - TR AnyTLS
   - TW 1
-  - TW 2  (OpenAI)
+  - TW 2 (OpenAI)
   - TW 3
-  - UK 1  (OpenAI)
+  - UA AnyTLS
+  - UK 1 (OpenAI)
   - UK 2
   - UK 3
-  - US LA 1  (OpenAI)
-  - US LA 2  (OpenAI)
-  - US LA 3  (OpenAI)
+  - US LA 1 (OpenAI)
+  - US LA 2 (OpenAI)
+  - US LA 3 (OpenAI)
+  - US LA AnyTLS
+  - VN AnyTLS
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
@@ -495,6 +638,54 @@ rules:
 - "DOMAIN-KEYWORD,mojie,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\
   \u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - GEOIP,lan,DIRECT,no-resolve
+- DOMAIN-SUFFIX,zoot.plus,DIRECT
+- DOMAIN-SUFFIX,prts.plus,DIRECT
+- "DOMAIN,ai.google.dev,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\
+  \u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN,alkalicore-pa.clients6.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\
+  \u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN,alkalimakersuite-pa.clients6.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\
+  \u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com,\u8FD9\u91CC\u4E07\u7C41\
+  \u4FF1\u5BC2\u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,gemini.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,deepmind.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,labs.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,jules.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,deepmind.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,notebooklm.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,generativeai.google,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\
+  \u5BC2\u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,aistudio.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,bard.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\
+  \u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,makersuite.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,gemini.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\
+  \u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,notebooklm.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,generativelanguage.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\
+  \u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,jules.google.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,geller-pa.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\
+  \u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\
+  \u2026\u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
+- "DOMAIN-SUFFIX,aida.googleapis.com,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
+  \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - "DOMAIN,openaiapi-site.azureedge.net,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\
   \u592A\u5B89\u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - "DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,\u8FD9\u91CC\u4E07\u7C41\u4FF1\
