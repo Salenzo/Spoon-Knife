@@ -128,6 +128,18 @@ proxies:
   sni: sg.mjhy2.com
   type: hysteria2
   up: 10000
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: SG AnyTLS (Gemini)
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1662
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
   name: SG 1 (Gemini) (OpenAI)
@@ -643,6 +655,7 @@ proxy-groups:
   - SG 1 (Gemini) (OpenAI)
   - SG 2 (Gemini) (OpenAI)
   - SG 3 (Gemini)
+  - SG AnyTLS (Gemini)
   - SG Hysteria2
   - TR AnyTLS
   - TW 1
