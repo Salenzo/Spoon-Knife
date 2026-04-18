@@ -670,6 +670,7 @@ rules:
 - DOMAIN-SUFFIX,zi.tools,DIRECT
 - DOMAIN-SUFFIX,maa.plus,DIRECT
 - DOMAIN-SUFFIX,yeah.net,DIRECT
+- DOMAIN-SUFFIX,mojidict.com,DIRECT
 - DOMAIN-SUFFIX,api.github.com,DIRECT
 - DOMAIN-SUFFIX,ts.net,DIRECT
 - DOMAIN,mjcdnsub.mjurl.com,DIRECT
