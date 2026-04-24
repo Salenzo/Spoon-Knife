@@ -200,6 +200,18 @@ proxies:
   sni: any.mjanyt.com
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: HKT AnyTLS
+  password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
+  port: 1699
+  server: hkt.mjhy2.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
 - down: 3000
   name: HK Hysteria2
   password: 0ff3e879-9180-47bb-abb3-6af30ceae95d
@@ -652,6 +664,7 @@ proxy-groups:
   - HK WAP 1 (Gemini)
   - HK WAP 2 (Gemini)
   - HK WAP 3 (Gemini)
+  - HKT AnyTLS
   - IN 1
   - JP 1
   - JP 2
