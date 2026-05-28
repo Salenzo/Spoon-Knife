@@ -497,6 +497,18 @@ proxies:
       Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: "\u6CD5FR AnyTLS"
+  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  port: 1691
+  server: 5.135.5.130
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
 - down: 10000
   name: DE Hysteria2
   password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
@@ -692,6 +704,7 @@ proxy-groups:
   - US LA 3 (OpenAI)
   - US LA AnyTLS
   - VN AnyTLS
+  - "\u6CD5FR AnyTLS"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
