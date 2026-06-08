@@ -509,14 +509,6 @@ proxies:
   sni: any.mjanyt.com
   type: anytls
   udp: true
-- down: 10000
-  name: DE Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
-  port: 1443
-  server: de.mjhy2.com
-  skip-cert-verify: true
-  type: hysteria2
-  up: 10000
 - alterId: 0
   cipher: auto
   name: DE 1
@@ -667,7 +659,6 @@ proxy-groups:
   - CA 3
   - DE 1
   - DE 2
-  - DE Hysteria2
   - HK 1 (Gemini)
   - HK 2 (Gemini)
   - HK 3 (Gemini)
