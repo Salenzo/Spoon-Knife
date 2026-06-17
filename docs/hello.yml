@@ -504,7 +504,7 @@ proxies:
   name: "\u6CD5FR AnyTLS"
   password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
   port: 1691
-  server: 5.135.5.130
+  server: a.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -712,6 +712,7 @@ rules:
 - DOMAIN-SUFFIX,deepseek.com,DIRECT
 - DOMAIN-SUFFIX,mojidict.com,DIRECT
 - DOMAIN-SUFFIX,hf-mirror.com,DIRECT
+- DOMAIN-SUFFIX,aifadian.com,DIRECT
 - DOMAIN-SUFFIX,api.github.com,DIRECT
 - DOMAIN-SUFFIX,ts.net,DIRECT
 - DOMAIN,mjcdnsub.mjurl.com,DIRECT
