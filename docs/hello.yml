@@ -41,14 +41,15 @@ proxies:
   password: '114514'
   port: 1919
   server: 8.8.8.8
-  type: ss
+  type: vmess
   udp: true
 - cipher: aes-128-gcm
-  name: "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
+  name: "\u201C\u5728\u8FD9\u7247\u661F\u7A7A\u4E2D\uFF0C\u548C\u6211\u8DF3\u4E00\u652F\
+    \u821E\u5427\u3002\u201D"
   password: '114514'
   port: 1919
   server: 8.8.8.8
-  type: ss
+  type: vmess
   udp: true
 - alterId: 0
   cipher: auto
@@ -653,7 +654,8 @@ proxy-groups:
 - name: "\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\u9759\u4E86\u3002\
     \u522B\u7559\u4E0B\u6211\u3002"
   proxies:
-  - "\uFF08\u8BF7\u9009\u62E9\u4F60\u7684\u5E72\u5458\uFF09"
+  - "\u201C\u5728\u8FD9\u7247\u661F\u7A7A\u4E2D\uFF0C\u548C\u6211\u8DF3\u4E00\u652F\
+    \u821E\u5427\u3002\u201D"
   - CA 1
   - CA 2
   - CA 3
