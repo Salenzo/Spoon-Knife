@@ -502,7 +502,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: "\u6CD5FR AnyTLS"
+  name: FR AnyTLS
   password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
   port: 1691
   server: a.mjanyt.com
@@ -661,6 +661,7 @@ proxy-groups:
   - CA 3
   - DE 1
   - DE 2
+  - FR AnyTLS
   - HK 1 (Gemini)
   - HK 2 (Gemini)
   - HK 3 (Gemini)
@@ -697,7 +698,6 @@ proxy-groups:
   - US LA 3 (OpenAI)
   - US LA AnyTLS
   - VN AnyTLS
-  - "\u6CD5FR AnyTLS"
   type: select
 rules:
 - DOMAIN,metsubojinrai.top,DIRECT
