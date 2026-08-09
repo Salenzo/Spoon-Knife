@@ -63,6 +63,15 @@ proxies:
   sni: any.mjanyt.com
   type: anytls
   udp: true
+- down: 3000
+  name: JP Hysteria2
+  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 3000
 - alterId: 0
   cipher: auto
   name: JP 1
@@ -111,15 +120,6 @@ proxies:
       Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
     path: /
   ws-path: /
-- down: 3000
-  name: JP Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
-  port: 1443
-  server: jp.mjhy2.com
-  skip-cert-verify: true
-  sni: jp.mjhy2.com
-  type: hysteria2
-  up: 3000
 - down: 10000
   name: SG Hysteria2
   password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
