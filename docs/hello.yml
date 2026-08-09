@@ -51,6 +51,18 @@ proxies:
   server: 8.8.8.8
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: JP AnyTLS
+  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  port: 1663
+  server: a.mjanyt.com
+  skip-cert-verify: true
+  sni: any.mjanyt.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
   name: JP 1
@@ -108,18 +120,6 @@ proxies:
   sni: jp.mjhy2.com
   type: hysteria2
   up: 3000
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: JP AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
-  port: 1663
-  server: a.mjanyt.com
-  skip-cert-verify: true
-  sni: any.mjanyt.com
-  type: anytls
-  udp: true
 - down: 10000
   name: SG Hysteria2
   password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
