@@ -77,7 +77,7 @@ proxies:
   name: JP 1
   network: ws
   port: 16617
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -146,7 +146,7 @@ proxies:
   name: SG 1 (OpenAI)
   network: ws
   port: 16618
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -226,7 +226,7 @@ proxies:
   name: HK 1
   network: ws
   port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -274,7 +274,7 @@ proxies:
   name: HK WAP 1
   network: ws
   port: 16622
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -331,7 +331,7 @@ proxies:
   name: IN 1
   network: ws
   port: 16626
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -347,7 +347,7 @@ proxies:
   name: TW 1
   network: ws
   port: 16616
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -407,7 +407,7 @@ proxies:
   name: US LA 1 (OpenAI)
   network: ws
   port: 16648
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -455,7 +455,7 @@ proxies:
   name: CA 1
   network: ws
   port: 16641
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -515,7 +515,7 @@ proxies:
   name: DE 1
   network: ws
   port: 16644
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
@@ -547,7 +547,7 @@ proxies:
   name: UK 1 (OpenAI)
   network: ws
   port: 16645
-  server: planb.mojcn.com.linuxlh.xin
+  server: p4.cnb.linuxlh.xin
   type: vmess
   udp: true
   uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
