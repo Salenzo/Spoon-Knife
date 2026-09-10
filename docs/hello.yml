@@ -53,7 +53,7 @@ proxies:
   udp: true
 - down: 3000
   name: JP Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
   server: jp.mjhy2.com
   skip-cert-verify: true
@@ -65,7 +65,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: JP AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1663
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -80,12 +80,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -96,12 +96,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -112,17 +112,17 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - down: 10000
   name: SG Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
   server: sg.mjhy2.com
   skip-cert-verify: true
@@ -134,7 +134,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: SG AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1662
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -149,12 +149,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -165,12 +165,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -181,12 +181,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alpn:
@@ -194,7 +194,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: HK AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1661
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -206,7 +206,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: HKT AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1699
   server: hkt.mjhy2.com
   skip-cert-verify: true
@@ -215,7 +215,7 @@ proxies:
   udp: true
 - down: 3000
   name: HK Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
   server: hk.mjhy2.com
   skip-cert-verify: true
@@ -229,12 +229,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -245,12 +245,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -261,12 +261,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -277,12 +277,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -293,12 +293,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -309,17 +309,17 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - down: 10000
   name: KR Hysteria2
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
   server: kr.mjhy2.com
   skip-cert-verify: true
@@ -334,12 +334,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -350,12 +350,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -366,12 +366,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -382,12 +382,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alpn:
@@ -395,7 +395,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: US LA AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1672
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -410,12 +410,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -426,12 +426,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -442,12 +442,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -458,12 +458,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -474,12 +474,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -490,12 +490,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alpn:
@@ -503,7 +503,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: FR AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1691
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -518,12 +518,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -534,12 +534,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -550,12 +550,12 @@ proxies:
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -566,12 +566,12 @@ proxies:
   server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
@@ -582,12 +582,12 @@ proxies:
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
-  uuid: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  uuid: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   ws-headers:
-    Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+    Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: c5dbf5720425a3f6223ec81a1a6b9f99.mobgslb.tbcache.com
+      Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alpn:
@@ -595,7 +595,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: VN AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1665
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -607,7 +607,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: RU AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1671
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -619,7 +619,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: UA AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1674
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -631,7 +631,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: TR AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1673
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -643,7 +643,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   name: NG AnyTLS
-  password: f1bb5881-0d3b-43ca-aac4-6fbac6d80955
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1681
   server: a.mjanyt.com
   skip-cert-verify: true
@@ -718,7 +718,7 @@ rules:
 - DOMAIN-SUFFIX,api.github.com,DIRECT
 - DOMAIN-SUFFIX,auroraoss.com,DIRECT
 - DOMAIN-SUFFIX,ts.net,DIRECT
-- DOMAIN,mjcdnsub.mjurl.com,DIRECT
+- DOMAIN,mojie.me,DIRECT
 - "DOMAIN-KEYWORD,mojie,\u8FD9\u91CC\u4E07\u7C41\u4FF1\u5BC2\u2026\u2026\u592A\u5B89\
   \u9759\u4E86\u3002\u522B\u7559\u4E0B\u6211\u3002"
 - GEOIP,lan,DIRECT,no-resolve
