@@ -618,18 +618,6 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: UA AnyTLS
-  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
-  port: 1674
-  server: a.mjanyt.com
-  skip-cert-verify: true
-  sni: eu.mjanyt.com
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
   name: TR AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1673
@@ -689,7 +677,6 @@ proxy-groups:
   - TW 1
   - TW 2 (OpenAI)
   - TW 3
-  - UA AnyTLS
   - UK 1 (OpenAI)
   - UK 2
   - UK 3
