@@ -120,7 +120,7 @@ proxies:
       Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
-- down: 10000
+- down: 3000
   name: SG Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
@@ -128,7 +128,7 @@ proxies:
   skip-cert-verify: true
   sni: sg.mjhy2.com
   type: hysteria2
-  up: 10000
+  up: 3000
 - alpn:
   - h2
   - http/1.1
@@ -317,7 +317,7 @@ proxies:
       Host: aea919a25246e7098b24a4dccf1592d3.mobgslb.tbcache.com
     path: /
   ws-path: /
-- down: 10000
+- down: 3000
   name: KR Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
@@ -325,7 +325,7 @@ proxies:
   skip-cert-verify: true
   sni: kr.mjhy2.com
   type: hysteria2
-  up: 10000
+  up: 3000
 - alterId: 0
   cipher: auto
   name: IN 1
