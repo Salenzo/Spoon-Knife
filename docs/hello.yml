@@ -402,6 +402,18 @@ proxies:
   sni: us.mjanyt.com
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: USLA2 AnyTLS
+  password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
+  port: 1675
+  server: us.mjhy2.com
+  skip-cert-verify: true
+  sni: us.mjanyt.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
   name: US LA 1 (OpenAI)
@@ -684,6 +696,7 @@ proxy-groups:
   - US LA 2 (OpenAI)
   - US LA 3 (OpenAI)
   - US LA AnyTLS
+  - USLA2 AnyTLS
   - VN AnyTLS
   type: select
 rules:
