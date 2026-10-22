@@ -321,7 +321,7 @@ proxies:
   name: KR Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
-  server: kr5.mjhy2.com
+  server: qzt6g.mjhy2.com
   skip-cert-verify: true
   sni: kr.mjhy2.com
   type: hysteria2
