@@ -55,7 +55,7 @@ proxies:
   name: JP Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
-  server: jp5.mjhy2.com
+  server: punjv.mjhy2.com
   skip-cert-verify: true
   sni: jp.mjhy2.com
   type: hysteria2
@@ -67,7 +67,7 @@ proxies:
   name: JP AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1663
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -124,7 +124,7 @@ proxies:
   name: SG Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
-  server: sg5.mjhy2.com
+  server: av4ve.mjhy2.com
   skip-cert-verify: true
   sni: sg.mjhy2.com
   type: hysteria2
@@ -136,7 +136,7 @@ proxies:
   name: SG AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1662
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -196,7 +196,7 @@ proxies:
   name: HK AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1661
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -217,7 +217,7 @@ proxies:
   name: HK Hysteria2
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1443
-  server: hk5.mjhy2.com
+  server: mkc6x.mjhy2.com
   skip-cert-verify: true
   type: hysteria2
   up: 3000
@@ -397,7 +397,7 @@ proxies:
   name: US LA AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1672
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: us.mjanyt.com
   type: anytls
@@ -505,7 +505,7 @@ proxies:
   name: FR AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1691
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -597,7 +597,7 @@ proxies:
   name: VN AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1665
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: any.mjanyt.com
   type: anytls
@@ -609,7 +609,7 @@ proxies:
   name: RU AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1671
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: eu.mjanyt.com
   type: anytls
@@ -621,7 +621,7 @@ proxies:
   name: TR AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1673
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: eu.mjanyt.com
   type: anytls
@@ -633,7 +633,7 @@ proxies:
   name: NG AnyTLS
   password: ebd74b32-b628-4add-b7c4-4d34c3eb53cb
   port: 1681
-  server: a3.mjanyt.com
+  server: 5wlpa.mjanyt.com
   skip-cert-verify: true
   sni: eu.mjanyt.com
   type: anytls
